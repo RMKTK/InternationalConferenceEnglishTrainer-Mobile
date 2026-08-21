@@ -1,0 +1,4382 @@
+{
+  "material_id": "conference_english_conference_expanded_v012",
+  "title": "International Conference English Trainer - Conference Expanded",
+  "version": "0.12",
+  "source_basis": "海外旅行編・接客英会話『宿泊編』『飲食編』のシーン構成を参考に、海外出張者側の会話として独自再構成",
+  "scenes": [
+    {
+      "id": "inflight_seat_001",
+      "icon": "✈️",
+      "category_ja": "機内",
+      "category": "In-flight",
+      "title_ja": "自分の席に別の人が座っている",
+      "title_en": "Someone is in your seat",
+      "situation_ja": "機内で自分の座席に着くと、別の乗客が座っています。やわらかく自分の席だと伝えます。",
+      "source_basis": "Chapter 1 / Scene 1",
+      "dialogue": [
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Excuse me. I think this is my seat.",
+          "meaning_ja": "すみません。ここは私の席だと思うのですが。",
+          "chunks": [
+            {
+              "en": "Excuse me.",
+              "ja": "すみません"
+            },
+            {
+              "en": "I think",
+              "ja": "〜だと思うのですが"
+            },
+            {
+              "en": "this is my seat.",
+              "ja": "ここは私の席です"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Passenger",
+          "en": "Oh, sorry. Let me check my boarding pass.",
+          "ja": "あ、すみません。搭乗券を確認します。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "No problem.",
+          "meaning_ja": "大丈夫ですよ。",
+          "chunks": [
+            {
+              "en": "No problem.",
+              "ja": "大丈夫ですよ"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Passenger",
+          "en": "You're right. I'll move.",
+          "ja": "おっしゃる通りです。移動します。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Thank you.",
+          "meaning_ja": "ありがとうございます。",
+          "chunks": [
+            {
+              "en": "Thank you.",
+              "ja": "ありがとうございます"
+            }
+          ]
+        }
+      ],
+      "tip_ja": "I think ... を付けると、断定を少しやわらげて伝えられます。"
+    },
+    {
+      "id": "inflight_change_seat_002",
+      "icon": "✈️",
+      "category_ja": "機内",
+      "category": "In-flight",
+      "title_ja": "席を替わってもらう",
+      "title_en": "Ask to change seats",
+      "situation_ja": "同行者と席が離れています。近くの乗客に、席を替わってもらえるか丁寧にお願いします。",
+      "source_basis": "Chapter 1 / Scene 2",
+      "dialogue": [
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Excuse me. Could I ask you a favor?",
+          "meaning_ja": "すみません。お願いしてもよいですか？",
+          "chunks": [
+            {
+              "en": "Excuse me.",
+              "ja": "すみません"
+            },
+            {
+              "en": "Could I ask you",
+              "ja": "お願いしてもよいですか"
+            },
+            {
+              "en": "a favor?",
+              "ja": "一つ"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Passenger",
+          "en": "Sure. What is it?",
+          "ja": "もちろんです。何でしょう？"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Could you change seats with me? I'd like to sit next to my colleague.",
+          "meaning_ja": "席を替わっていただけますか？ 同僚の隣に座りたいのです。",
+          "chunks": [
+            {
+              "en": "Could you change seats with me?",
+              "ja": "席を替わっていただけますか"
+            },
+            {
+              "en": "I'd like to sit",
+              "ja": "座りたいです"
+            },
+            {
+              "en": "next to my colleague.",
+              "ja": "同僚の隣に"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Passenger",
+          "en": "No problem.",
+          "ja": "いいですよ。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Thank you. I really appreciate it.",
+          "meaning_ja": "ありがとうございます。助かります。",
+          "chunks": [
+            {
+              "en": "Thank you.",
+              "ja": "ありがとうございます"
+            },
+            {
+              "en": "I really appreciate it.",
+              "ja": "本当に助かります"
+            }
+          ]
+        }
+      ],
+      "tip_ja": "Could you ...? は丁寧な依頼の基本形です。理由は I'd like to ... で短く添えると自然です。"
+    },
+    {
+      "id": "inflight_meal_003",
+      "icon": "✈️",
+      "category_ja": "機内",
+      "category": "In-flight",
+      "title_ja": "機内食と飲み物を選ぶ",
+      "title_en": "Choose your meal and drink",
+      "situation_ja": "機内食の時間です。客室乗務員から食事と飲み物の希望を聞かれます。",
+      "source_basis": "Chapter 1 / Scene 3",
+      "dialogue": [
+        {
+          "role": "other",
+          "speaker": "Flight attendant",
+          "en": "Would you like chicken or pasta?",
+          "ja": "チキンとパスタ、どちらになさいますか？"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "I'd like the chicken, please.",
+          "meaning_ja": "チキンをお願いします。",
+          "chunks": [
+            {
+              "en": "I'd like",
+              "ja": "〜をお願いします"
+            },
+            {
+              "en": "the chicken, please.",
+              "ja": "チキンを"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Flight attendant",
+          "en": "And what would you like to drink?",
+          "ja": "お飲み物は何になさいますか？"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Water, please.",
+          "meaning_ja": "お水をお願いします。",
+          "chunks": [
+            {
+              "en": "Water, please.",
+              "ja": "お水をお願いします"
+            }
+          ]
+        }
+      ],
+      "tip_ja": "選択肢を聞かれたら I'd like + 名詞、短い注文なら 名詞 + please で十分です。"
+    },
+    {
+      "id": "inflight_water_004",
+      "icon": "✈️",
+      "category_ja": "機内",
+      "category": "In-flight",
+      "title_ja": "機内で水を頼む",
+      "title_en": "Ask for water",
+      "situation_ja": "のどが渇いたので水を頼みます。もし有料なら、値段を聞いて注文する流れも練習します。",
+      "source_basis": "Chapter 1 / Scene 4",
+      "dialogue": [
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Could I have some water, please?",
+          "meaning_ja": "お水をいただけますか？",
+          "chunks": [
+            {
+              "en": "Could I have",
+              "ja": "いただけますか"
+            },
+            {
+              "en": "some water, please?",
+              "ja": "お水を"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Flight attendant",
+          "en": "Sure. It's two dollars a bottle.",
+          "ja": "もちろんです。1本2ドルです。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "I see. I'll take one, please.",
+          "meaning_ja": "分かりました。1本お願いします。",
+          "chunks": [
+            {
+              "en": "I see.",
+              "ja": "分かりました"
+            },
+            {
+              "en": "I'll take one, please.",
+              "ja": "1本お願いします"
+            }
+          ]
+        }
+      ],
+      "tip_ja": "Could I have ...? は飲み物や物を丁寧に頼むときに幅広く使えます。"
+    },
+    {
+      "id": "immigration_purpose_005",
+      "icon": "🛂",
+      "category_ja": "入国",
+      "category": "Immigration",
+      "title_ja": "訪問目的と滞在期間を答える",
+      "title_en": "Explain your visit and stay",
+      "situation_ja": "入国審査です。審査官から訪問目的と滞在期間を聞かれます。国際会議出張として答えます。",
+      "source_basis": "Chapter 2 / Scene 5 (conference-trip adaptation)",
+      "dialogue": [
+        {
+          "role": "other",
+          "speaker": "Officer",
+          "en": "Your passport, please.",
+          "ja": "パスポートをお願いします。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Here you are.",
+          "meaning_ja": "はい、どうぞ。",
+          "chunks": [
+            {
+              "en": "Here you are.",
+              "ja": "はい、どうぞ"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Officer",
+          "en": "What's the purpose of your visit?",
+          "ja": "訪問の目的は何ですか？"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "I'm here to attend an international conference.",
+          "meaning_ja": "国際会議に参加するために来ました。",
+          "chunks": [
+            {
+              "en": "I'm here",
+              "ja": "来ています"
+            },
+            {
+              "en": "to attend",
+              "ja": "参加するために"
+            },
+            {
+              "en": "an international conference.",
+              "ja": "国際会議に"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Officer",
+          "en": "How long will you be staying?",
+          "ja": "どのくらい滞在しますか？"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "For four days.",
+          "meaning_ja": "4日間です。",
+          "chunks": [
+            {
+              "en": "For",
+              "ja": "〜の間"
+            },
+            {
+              "en": "four days.",
+              "ja": "4日間"
+            }
+          ]
+        }
+      ],
+      "tip_ja": "I'm here to + 動詞 で訪問目的を表せます。滞在期間は For + 期間 で短く答えられます。"
+    },
+    {
+      "id": "immigration_stay_006",
+      "icon": "🛂",
+      "category_ja": "入国",
+      "category": "Immigration",
+      "title_ja": "滞在先と同行者を答える",
+      "title_en": "Say where you are staying",
+      "situation_ja": "入国審査で滞在先と同行者について聞かれます。ホテル名や同行者を簡潔に答えます。",
+      "source_basis": "Chapter 2 / Scene 6",
+      "dialogue": [
+        {
+          "role": "other",
+          "speaker": "Officer",
+          "en": "Where are you staying?",
+          "ja": "どこに滞在しますか？"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "I'm staying at the Grand Hotel downtown.",
+          "meaning_ja": "市内のグランドホテルに滞在します。",
+          "chunks": [
+            {
+              "en": "I'm staying at",
+              "ja": "滞在します"
+            },
+            {
+              "en": "the Grand Hotel",
+              "ja": "グランドホテルに"
+            },
+            {
+              "en": "downtown.",
+              "ja": "市内の"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Officer",
+          "en": "Are you traveling alone?",
+          "ja": "お一人で旅行ですか？"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "No. I'm traveling with a colleague.",
+          "meaning_ja": "いいえ。同僚と一緒です。",
+          "chunks": [
+            {
+              "en": "No.",
+              "ja": "いいえ"
+            },
+            {
+              "en": "I'm traveling",
+              "ja": "旅行しています"
+            },
+            {
+              "en": "with a colleague.",
+              "ja": "同僚と一緒に"
+            }
+          ]
+        }
+      ],
+      "tip_ja": "I'm staying at + ホテル名 で滞在先を、with + 人 で同行者を簡潔に伝えられます。"
+    },
+    {
+      "id": "immigration_exchange_007",
+      "icon": "🛂",
+      "category_ja": "入国",
+      "category": "Immigration",
+      "title_ja": "両替をする",
+      "title_en": "Exchange money",
+      "situation_ja": "到着後、両替カウンターで現金を両替します。少額紙幣も入れてもらいます。",
+      "source_basis": "Chapter 2 / Scene 7",
+      "dialogue": [
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Hi. I'd like to exchange some yen for dollars.",
+          "meaning_ja": "こんにちは。円をドルに両替したいのですが。",
+          "chunks": [
+            {
+              "en": "I'd like to exchange",
+              "ja": "両替したいです"
+            },
+            {
+              "en": "some yen",
+              "ja": "いくらかの円を"
+            },
+            {
+              "en": "for dollars.",
+              "ja": "ドルに"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Staff",
+          "en": "How much would you like to exchange?",
+          "ja": "いくら両替しますか？"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Fifty thousand yen, please.",
+          "meaning_ja": "5万円お願いします。",
+          "chunks": [
+            {
+              "en": "Fifty thousand yen,",
+              "ja": "5万円"
+            },
+            {
+              "en": "please.",
+              "ja": "お願いします"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Staff",
+          "en": "How would you like the bills?",
+          "ja": "紙幣の内訳はどうしますか？"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Could I have some small bills, please?",
+          "meaning_ja": "小額紙幣も入れていただけますか？",
+          "chunks": [
+            {
+              "en": "Could I have",
+              "ja": "いただけますか"
+            },
+            {
+              "en": "some small bills,",
+              "ja": "小額紙幣を"
+            },
+            {
+              "en": "please?",
+              "ja": "お願いします"
+            }
+          ]
+        }
+      ],
+      "tip_ja": "I'd like to exchange A for B で「AをBに両替したい」と言えます。"
+    },
+    {
+      "id": "immigration_transport_008",
+      "icon": "🛂",
+      "category_ja": "入国",
+      "category": "Immigration",
+      "title_ja": "空港から市内への行き方を聞く",
+      "title_en": "Ask how to get to the city",
+      "situation_ja": "空港の案内所で、市内までの移動方法を尋ねます。おすすめと運行間隔も確認します。",
+      "source_basis": "Chapter 2 / Scene 8",
+      "dialogue": [
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "What's the best way to get to the city center?",
+          "meaning_ja": "市内中心部へ行く一番よい方法は何ですか？",
+          "chunks": [
+            {
+              "en": "What's the best way",
+              "ja": "一番よい方法は何ですか"
+            },
+            {
+              "en": "to get to",
+              "ja": "行くための"
+            },
+            {
+              "en": "the city center?",
+              "ja": "市内中心部へ"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Staff",
+          "en": "You can take the train or a taxi.",
+          "ja": "電車かタクシーを利用できます。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Which do you recommend?",
+          "meaning_ja": "どちらがおすすめですか？",
+          "chunks": [
+            {
+              "en": "Which do you recommend?",
+              "ja": "どちらがおすすめですか"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Staff",
+          "en": "I recommend the train. It's faster at this time of day.",
+          "ja": "電車がおすすめです。この時間帯は速いですよ。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "How often does it run?",
+          "meaning_ja": "どのくらいの間隔で運行していますか？",
+          "chunks": [
+            {
+              "en": "How often",
+              "ja": "どのくらいの間隔で"
+            },
+            {
+              "en": "does it run?",
+              "ja": "運行していますか"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Staff",
+          "en": "Every fifteen minutes.",
+          "ja": "15分おきです。"
+        }
+      ],
+      "tip_ja": "What's the best way to get to ...? は交通手段を尋ねる便利な型です。"
+    },
+    {
+      "id": "hotel_checkin_009",
+      "icon": "🏨",
+      "category_ja": "ホテル",
+      "category": "Hotel",
+      "title_ja": "ホテルにチェックインする",
+      "title_en": "Check in at the hotel",
+      "situation_ja": "予約しているホテルに到着しました。フロントで予約名を伝え、パスポートを提示します。",
+      "source_basis": "Chapter 3 / Scene 9",
+      "dialogue": [
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Hi. I have a reservation under Tanaka.",
+          "meaning_ja": "こんにちは。田中の名前で予約しています。",
+          "chunks": [
+            {
+              "en": "Hi.",
+              "ja": "こんにちは"
+            },
+            {
+              "en": "I have a reservation",
+              "ja": "予約しています"
+            },
+            {
+              "en": "under Tanaka.",
+              "ja": "田中の名前で"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Staff",
+          "en": "Certainly. May I see your passport, please?",
+          "ja": "かしこまりました。パスポートを拝見できますか？"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Sure. Here you are.",
+          "meaning_ja": "はい。どうぞ。",
+          "chunks": [
+            {
+              "en": "Sure.",
+              "ja": "はい"
+            },
+            {
+              "en": "Here you are.",
+              "ja": "どうぞ"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Staff",
+          "en": "Thank you. Your room is on the eighth floor.",
+          "ja": "ありがとうございます。お部屋は8階です。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Thank you.",
+          "meaning_ja": "ありがとうございます。",
+          "chunks": [
+            {
+              "en": "Thank you.",
+              "ja": "ありがとうございます"
+            }
+          ]
+        }
+      ],
+      "tip_ja": "I have a reservation under + 名前 で予約名を簡潔に伝えられます。"
+    },
+    {
+      "id": "hotel_wifi_010",
+      "icon": "🏨",
+      "category_ja": "ホテル",
+      "category": "Hotel",
+      "title_ja": "Wi-Fiについて聞く",
+      "title_en": "Ask about Wi-Fi",
+      "situation_ja": "部屋でインターネットを使いたいので、Wi-Fiが無料か、どう接続するかをフロントに確認します。",
+      "source_basis": "Chapter 3 / Scene 10",
+      "dialogue": [
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Is the Wi-Fi free here?",
+          "meaning_ja": "ここのWi-Fiは無料ですか？",
+          "chunks": [
+            {
+              "en": "Is the Wi-Fi",
+              "ja": "Wi-Fiは"
+            },
+            {
+              "en": "free here?",
+              "ja": "ここでは無料ですか"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Staff",
+          "en": "Yes. Wi-Fi is included with your room.",
+          "ja": "はい。客室料金に含まれています。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "How do I connect?",
+          "meaning_ja": "どうやって接続すればよいですか？",
+          "chunks": [
+            {
+              "en": "How do I",
+              "ja": "どうやって"
+            },
+            {
+              "en": "connect?",
+              "ja": "接続しますか"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Staff",
+          "en": "Select the hotel network and enter the password on your key card.",
+          "ja": "ホテルのネットワークを選び、キーカードにあるパスワードを入力してください。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Got it. Thank you.",
+          "meaning_ja": "分かりました。ありがとうございます。",
+          "chunks": [
+            {
+              "en": "Got it.",
+              "ja": "分かりました"
+            },
+            {
+              "en": "Thank you.",
+              "ja": "ありがとうございます"
+            }
+          ]
+        }
+      ],
+      "tip_ja": "Is ... free? で料金の有無、How do I + 動詞? で方法を確認できます。"
+    },
+    {
+      "id": "hotel_roomservice_011",
+      "icon": "🏨",
+      "category_ja": "ホテル",
+      "category": "Hotel",
+      "title_ja": "ルームサービスを頼む",
+      "title_en": "Order room service",
+      "situation_ja": "ホテルの部屋からルームサービスへ電話し、夕食と飲み物を注文します。",
+      "source_basis": "Chapter 3 / Scene 11",
+      "dialogue": [
+        {
+          "role": "other",
+          "speaker": "Room service",
+          "en": "Room service. How can I help you?",
+          "ja": "ルームサービスです。ご用件をどうぞ。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Hi. This is room 423. I'd like to order dinner.",
+          "meaning_ja": "こんにちは。423号室です。夕食を注文したいです。",
+          "chunks": [
+            {
+              "en": "This is room 423.",
+              "ja": "423号室です"
+            },
+            {
+              "en": "I'd like to order",
+              "ja": "注文したいです"
+            },
+            {
+              "en": "dinner.",
+              "ja": "夕食を"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Room service",
+          "en": "Certainly. What would you like?",
+          "ja": "かしこまりました。何になさいますか？"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "I'd like a chicken sandwich and a bottle of water, please.",
+          "meaning_ja": "チキンサンドと水を1本お願いします。",
+          "chunks": [
+            {
+              "en": "I'd like",
+              "ja": "お願いします"
+            },
+            {
+              "en": "a chicken sandwich",
+              "ja": "チキンサンドを"
+            },
+            {
+              "en": "and a bottle of water,",
+              "ja": "それと水を1本"
+            },
+            {
+              "en": "please.",
+              "ja": "お願いします"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Room service",
+          "en": "Would you like anything else?",
+          "ja": "ほかに何かございますか？"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "That's all, thanks.",
+          "meaning_ja": "以上です。ありがとうございます。",
+          "chunks": [
+            {
+              "en": "That's all,",
+              "ja": "以上です"
+            },
+            {
+              "en": "thanks.",
+              "ja": "ありがとうございます"
+            }
+          ]
+        }
+      ],
+      "tip_ja": "電話では This is room + 部屋番号 で名乗り、I'd like ... で注文できます。"
+    },
+    {
+      "id": "hotel_checkout_012",
+      "icon": "🏨",
+      "category_ja": "ホテル",
+      "category": "Hotel",
+      "title_ja": "チェックアウトして領収書をもらう",
+      "title_en": "Check out and get a receipt",
+      "situation_ja": "ホテルを出発します。チェックアウトし、ミニバー利用を確認された後、領収書を受け取ります。",
+      "source_basis": "Chapter 3 / Scene 12",
+      "dialogue": [
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Good morning. I'd like to check out, please.",
+          "meaning_ja": "おはようございます。チェックアウトをお願いします。",
+          "chunks": [
+            {
+              "en": "Good morning.",
+              "ja": "おはようございます"
+            },
+            {
+              "en": "I'd like to check out,",
+              "ja": "チェックアウトしたいです"
+            },
+            {
+              "en": "please.",
+              "ja": "お願いします"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Staff",
+          "en": "Certainly. Did you have anything from the minibar?",
+          "ja": "かしこまりました。ミニバーは利用しましたか？"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "No, I didn't.",
+          "meaning_ja": "いいえ、利用していません。",
+          "chunks": [
+            {
+              "en": "No,",
+              "ja": "いいえ"
+            },
+            {
+              "en": "I didn't.",
+              "ja": "利用していません"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Staff",
+          "en": "All right. You're all set.",
+          "ja": "分かりました。手続きは以上です。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Could I have a receipt, please?",
+          "meaning_ja": "領収書をいただけますか？",
+          "chunks": [
+            {
+              "en": "Could I have",
+              "ja": "いただけますか"
+            },
+            {
+              "en": "a receipt,",
+              "ja": "領収書を"
+            },
+            {
+              "en": "please?",
+              "ja": "お願いします"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Staff",
+          "en": "Of course. Here you are. How was your stay?",
+          "ja": "もちろんです。どうぞ。ご滞在はいかがでしたか？"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "It was great. Thank you.",
+          "meaning_ja": "とても良かったです。ありがとうございます。",
+          "chunks": [
+            {
+              "en": "It was great.",
+              "ja": "とても良かったです"
+            },
+            {
+              "en": "Thank you.",
+              "ja": "ありがとうございます"
+            }
+          ]
+        }
+      ],
+      "tip_ja": "I'd like to check out. で手続きを始め、Could I have a receipt? で領収書を依頼できます。"
+    },
+    {
+      "id": "hotel_luggage_013",
+      "icon": "🏨",
+      "category_ja": "ホテル",
+      "category": "Hotel",
+      "title_ja": "チェックイン前に荷物を預ける",
+      "title_en": "Leave luggage before check-in",
+      "situation_ja": "チェックイン時刻より早くホテルに着きました。荷物だけ預けて外出したい場面です。",
+      "source_basis": "宿泊編: 予約〜チェックイン・荷物預かり場面を旅行者側に再構成",
+      "dialogue": [
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Hi. I know I'm early, but could I leave my luggage here until check-in?",
+          "meaning_ja": "まだ早いのですが、チェックインまで荷物を預かっていただけますか？",
+          "chunks": [
+            {
+              "en": "I know I'm early,",
+              "ja": "まだ早いのですが"
+            },
+            {
+              "en": "but could I leave",
+              "ja": "預かっていただけますか"
+            },
+            {
+              "en": "my luggage here",
+              "ja": "ここに荷物を"
+            },
+            {
+              "en": "until check-in?",
+              "ja": "チェックインまで"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Staff",
+          "en": "Of course. We'll keep it for you.",
+          "ja": "もちろんです。お預かりします。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Thank you. I'll come back this afternoon.",
+          "meaning_ja": "ありがとうございます。午後に戻ります。",
+          "chunks": [
+            {
+              "en": "Thank you.",
+              "ja": "ありがとうございます"
+            },
+            {
+              "en": "I'll come back",
+              "ja": "戻ります"
+            },
+            {
+              "en": "this afternoon.",
+              "ja": "今日の午後に"
+            }
+          ]
+        }
+      ],
+      "tip_ja": "Could I leave my luggage here ...? はチェックイン前・チェックアウト後の荷物預かりで使えます。"
+    },
+    {
+      "id": "hotel_breakfast_014",
+      "icon": "🏨",
+      "category_ja": "ホテル",
+      "category": "Hotel",
+      "title_ja": "朝食の場所と時間を確認する",
+      "title_en": "Ask about breakfast",
+      "situation_ja": "翌朝の予定を立てるため、朝食会場と開始時刻をフロントで確認します。",
+      "source_basis": "宿泊編: 食事案内・朝食会場と時間の場面を旅行者側に再構成",
+      "dialogue": [
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Could you tell me where breakfast is served?",
+          "meaning_ja": "朝食はどこで食べられますか？",
+          "chunks": [
+            {
+              "en": "Could you tell me",
+              "ja": "教えていただけますか"
+            },
+            {
+              "en": "where breakfast is served?",
+              "ja": "朝食がどこで提供されるか"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Staff",
+          "en": "Breakfast is served in the restaurant on the second floor.",
+          "ja": "朝食は2階のレストランでお召し上がりいただけます。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "What time does breakfast start?",
+          "meaning_ja": "朝食は何時からですか？",
+          "chunks": [
+            {
+              "en": "What time",
+              "ja": "何時に"
+            },
+            {
+              "en": "does breakfast start?",
+              "ja": "朝食は始まりますか"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Staff",
+          "en": "It starts at 6:30 a.m.",
+          "ja": "午前6時30分からです。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Great, thank you.",
+          "meaning_ja": "分かりました。ありがとうございます。",
+          "chunks": [
+            {
+              "en": "Great,",
+              "ja": "分かりました"
+            },
+            {
+              "en": "thank you.",
+              "ja": "ありがとうございます"
+            }
+          ]
+        }
+      ],
+      "tip_ja": "Could you tell me where ...? と What time does ... start? は施設利用の確認に使えます。"
+    },
+    {
+      "id": "hotel_extra_towel_015",
+      "icon": "🏨",
+      "category_ja": "ホテル",
+      "category": "Hotel",
+      "title_ja": "タオルを追加でもらう",
+      "title_en": "Ask for an extra towel",
+      "situation_ja": "部屋でもう1枚タオルが必要になりました。フロントへ電話して届けてもらいます。",
+      "source_basis": "宿泊編: フロント対応・客室サービス場面を旅行者側に再構成",
+      "dialogue": [
+        {
+          "role": "other",
+          "speaker": "Staff",
+          "en": "Front desk. How can I help you?",
+          "ja": "フロントです。ご用件をどうぞ。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Hi. Could I get an extra towel, please?",
+          "meaning_ja": "追加のタオルを1枚いただけますか？",
+          "chunks": [
+            {
+              "en": "Could I get",
+              "ja": "いただけますか"
+            },
+            {
+              "en": "an extra towel,",
+              "ja": "追加のタオルを1枚"
+            },
+            {
+              "en": "please?",
+              "ja": "お願いします"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Staff",
+          "en": "Certainly. We'll bring one to your room.",
+          "ja": "かしこまりました。お部屋にお持ちします。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Thank you very much.",
+          "meaning_ja": "どうもありがとうございます。",
+          "chunks": [
+            {
+              "en": "Thank you",
+              "ja": "ありがとうございます"
+            },
+            {
+              "en": "very much.",
+              "ja": "どうも"
+            }
+          ]
+        }
+      ],
+      "tip_ja": "Could I get an extra ...? はタオル、枕、ハンガーなどの追加依頼に使えます。"
+    },
+    {
+      "id": "hotel_room_problem_016",
+      "icon": "🏨",
+      "category_ja": "ホテル",
+      "category": "Hotel",
+      "title_ja": "部屋の設備不良を伝える",
+      "title_en": "Report a problem in the room",
+      "situation_ja": "部屋のエアコンが動きません。フロントに状況を伝え、確認を依頼します。",
+      "source_basis": "宿泊編: サービス・クレーム対応を旅行者側に再構成",
+      "dialogue": [
+        {
+          "role": "other",
+          "speaker": "Staff",
+          "en": "Front desk. How can I help you?",
+          "ja": "フロントです。ご用件をどうぞ。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Hi. The air conditioner in my room isn't working.",
+          "meaning_ja": "こんにちは。部屋のエアコンが動きません。",
+          "chunks": [
+            {
+              "en": "The air conditioner",
+              "ja": "エアコンが"
+            },
+            {
+              "en": "in my room",
+              "ja": "私の部屋の"
+            },
+            {
+              "en": "isn't working.",
+              "ja": "動きません"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Staff",
+          "en": "I'm sorry about that. We'll send someone up to take a look.",
+          "ja": "申し訳ありません。担当者を確認に向かわせます。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Thank you. I'm in room 423.",
+          "meaning_ja": "ありがとうございます。423号室です。",
+          "chunks": [
+            {
+              "en": "Thank you.",
+              "ja": "ありがとうございます"
+            },
+            {
+              "en": "I'm in room 423.",
+              "ja": "423号室です"
+            }
+          ]
+        }
+      ],
+      "tip_ja": "... isn't working. はエアコン、テレビ、シャワーなどの不具合に使える重要な型です。"
+    },
+    {
+      "id": "hotel_late_checkout_017",
+      "icon": "🏨",
+      "category_ja": "ホテル",
+      "category": "Hotel",
+      "title_ja": "レイトチェックアウトを相談する",
+      "title_en": "Ask for late checkout",
+      "situation_ja": "帰国便まで時間があるため、通常より遅くチェックアウトできるか確認します。",
+      "source_basis": "宿泊編: チェックアウト・レイトチェックアウト場面を旅行者側に再構成",
+      "dialogue": [
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Would it be possible to check out a little later?",
+          "meaning_ja": "少し遅くチェックアウトすることはできますか？",
+          "chunks": [
+            {
+              "en": "Would it be possible",
+              "ja": "可能でしょうか"
+            },
+            {
+              "en": "to check out",
+              "ja": "チェックアウトすることが"
+            },
+            {
+              "en": "a little later?",
+              "ja": "少し遅く"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Staff",
+          "en": "Yes. Late checkout is available until 2 p.m. for an extra fee.",
+          "ja": "はい。追加料金で午後2時まで延長できます。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "How much is the extra fee?",
+          "meaning_ja": "追加料金はいくらですか？",
+          "chunks": [
+            {
+              "en": "How much is",
+              "ja": "いくらですか"
+            },
+            {
+              "en": "the extra fee?",
+              "ja": "追加料金は"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Staff",
+          "en": "It's thirty dollars.",
+          "ja": "30ドルです。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Okay. I'd like to do that, please.",
+          "meaning_ja": "分かりました。それでお願いします。",
+          "chunks": [
+            {
+              "en": "Okay.",
+              "ja": "分かりました"
+            },
+            {
+              "en": "I'd like to do that,",
+              "ja": "それでお願いします"
+            },
+            {
+              "en": "please.",
+              "ja": "お願いします"
+            }
+          ]
+        }
+      ],
+      "tip_ja": "Would it be possible to ...? は少し特別なお願いを丁寧に相談するときに便利です。"
+    },
+    {
+      "id": "hotel_shuttle_018",
+      "icon": "🏨",
+      "category_ja": "ホテル",
+      "category": "Hotel",
+      "title_ja": "空港行きシャトルを確認する",
+      "title_en": "Ask about the airport shuttle",
+      "situation_ja": "ホテルから空港へ向かいます。シャトルバスの有無と所要時間を確認します。",
+      "source_basis": "宿泊編: チェックアウト・シャトルバス場面を旅行者側に再構成",
+      "dialogue": [
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Does the hotel have a shuttle to the airport?",
+          "meaning_ja": "ホテルから空港へのシャトルはありますか？",
+          "chunks": [
+            {
+              "en": "Does the hotel have",
+              "ja": "ホテルにはありますか"
+            },
+            {
+              "en": "a shuttle",
+              "ja": "シャトルが"
+            },
+            {
+              "en": "to the airport?",
+              "ja": "空港への"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Staff",
+          "en": "Yes. It leaves every thirty minutes from the main entrance.",
+          "ja": "はい。正面玄関から30分おきに出発します。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "How long does it take to get to the airport?",
+          "meaning_ja": "空港までどのくらいかかりますか？",
+          "chunks": [
+            {
+              "en": "How long does it take",
+              "ja": "どのくらいかかりますか"
+            },
+            {
+              "en": "to get to the airport?",
+              "ja": "空港まで行くのに"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Staff",
+          "en": "About forty minutes, depending on traffic.",
+          "ja": "交通状況によりますが、約40分です。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Thank you. I'll take the next one.",
+          "meaning_ja": "ありがとうございます。次の便に乗ります。",
+          "chunks": [
+            {
+              "en": "Thank you.",
+              "ja": "ありがとうございます"
+            },
+            {
+              "en": "I'll take",
+              "ja": "乗ります"
+            },
+            {
+              "en": "the next one.",
+              "ja": "次の便に"
+            }
+          ]
+        }
+      ],
+      "tip_ja": "Does the hotel have ...? と How long does it take ...? はホテルからの移動確認で使いやすい型です。"
+    },
+    {
+      "id": "hotel_extend_stay_019",
+      "icon": "🏨",
+      "category_ja": "ホテル",
+      "category": "Hotel",
+      "title_ja": "宿泊を1泊延長できるか聞く",
+      "title_en": "Extend your stay",
+      "situation_ja": "予定が変わり、もう1泊必要になりました。現在の部屋をそのまま使えるか相談します。",
+      "source_basis": "宿泊編: フロント対応・宿泊延長場面を旅行者側に再構成",
+      "dialogue": [
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "I'd like to stay one more night. Is that possible?",
+          "meaning_ja": "もう1泊したいのですが、可能ですか？",
+          "chunks": [
+            {
+              "en": "I'd like to stay",
+              "ja": "滞在したいです"
+            },
+            {
+              "en": "one more night.",
+              "ja": "もう1泊"
+            },
+            {
+              "en": "Is that possible?",
+              "ja": "可能ですか"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Staff",
+          "en": "Let me check. Yes, we can extend your stay for one more night.",
+          "ja": "確認します。はい、もう1泊延長できます。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Can I stay in the same room?",
+          "meaning_ja": "同じ部屋に泊まれますか？",
+          "chunks": [
+            {
+              "en": "Can I stay",
+              "ja": "泊まれますか"
+            },
+            {
+              "en": "in the same room?",
+              "ja": "同じ部屋に"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Staff",
+          "en": "Yes, you can.",
+          "ja": "はい、大丈夫です。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Great. Thank you.",
+          "meaning_ja": "よかったです。ありがとうございます。",
+          "chunks": [
+            {
+              "en": "Great.",
+              "ja": "よかったです"
+            },
+            {
+              "en": "Thank you.",
+              "ja": "ありがとうございます"
+            }
+          ]
+        }
+      ],
+      "tip_ja": "one more night は「もう1泊」。Is that possible? は追加の希望を簡潔に確認できます。"
+    },
+    {
+      "id": "hotel_lost_item_020",
+      "icon": "🏨",
+      "category_ja": "ホテル",
+      "category": "Hotel",
+      "title_ja": "ホテルに忘れ物を問い合わせる",
+      "title_en": "Ask about a lost item",
+      "situation_ja": "チェックアウト後に部屋へ充電器を忘れたことに気付き、ホテルへ問い合わせます。",
+      "source_basis": "宿泊編: チェックアウト・忘れ物対応場面を旅行者側に再構成",
+      "dialogue": [
+        {
+          "role": "other",
+          "speaker": "Staff",
+          "en": "Front desk. How can I help you?",
+          "ja": "フロントです。ご用件をどうぞ。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Hi. I think I left my phone charger in my room.",
+          "meaning_ja": "こんにちは。部屋にスマートフォンの充電器を忘れたと思います。",
+          "chunks": [
+            {
+              "en": "I think",
+              "ja": "〜と思います"
+            },
+            {
+              "en": "I left",
+              "ja": "置き忘れました"
+            },
+            {
+              "en": "my phone charger",
+              "ja": "スマートフォンの充電器を"
+            },
+            {
+              "en": "in my room.",
+              "ja": "部屋に"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Staff",
+          "en": "What room were you staying in?",
+          "ja": "何号室にお泊まりでしたか？"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Room 423. Could you check for me?",
+          "meaning_ja": "423号室です。確認していただけますか？",
+          "chunks": [
+            {
+              "en": "Room 423.",
+              "ja": "423号室です"
+            },
+            {
+              "en": "Could you check",
+              "ja": "確認していただけますか"
+            },
+            {
+              "en": "for me?",
+              "ja": "私のために"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Staff",
+          "en": "Of course. We'll let you know if we find it.",
+          "ja": "もちろんです。見つかりましたらご連絡します。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Thank you. I appreciate it.",
+          "meaning_ja": "ありがとうございます。助かります。",
+          "chunks": [
+            {
+              "en": "Thank you.",
+              "ja": "ありがとうございます"
+            },
+            {
+              "en": "I appreciate it.",
+              "ja": "助かります"
+            }
+          ]
+        }
+      ],
+      "tip_ja": "I think I left ... in ... は忘れ物の問い合わせに使えます。"
+    },
+    {
+      "id": "restaurant_walkin_021",
+      "icon": "🍽️",
+      "category_ja": "食事",
+      "category": "Restaurant",
+      "title_ja": "予約なしでレストランに入る",
+      "title_en": "Ask for a table without a reservation",
+      "situation_ja": "夕食のためレストランに入りました。予約はしていません。1人で利用できるか尋ねます。",
+      "source_basis": "飲食編: 予約・来店場面を客側に再構成",
+      "dialogue": [
+        {
+          "role": "other",
+          "speaker": "Staff",
+          "en": "Good evening. Do you have a reservation?",
+          "ja": "こんばんは。ご予約はございますか？"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "No, I don't. Do you have a table for one?",
+          "meaning_ja": "いいえ。1人ですが席はありますか？",
+          "chunks": [
+            {
+              "en": "No, I don't.",
+              "ja": "いいえ、ありません"
+            },
+            {
+              "en": "Do you have",
+              "ja": "ありますか"
+            },
+            {
+              "en": "a table for one?",
+              "ja": "1人用の席は"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Staff",
+          "en": "Yes. We can seat you right away.",
+          "ja": "はい。すぐにご案内できます。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Great, thank you.",
+          "meaning_ja": "よかったです。ありがとうございます。",
+          "chunks": [
+            {
+              "en": "Great,",
+              "ja": "よかったです"
+            },
+            {
+              "en": "thank you.",
+              "ja": "ありがとうございます"
+            }
+          ]
+        }
+      ],
+      "tip_ja": "Do you have a table for one/two? は予約なしで入店するときの基本表現です。"
+    },
+    {
+      "id": "restaurant_recommendation_022",
+      "icon": "🍽️",
+      "category_ja": "食事",
+      "category": "Restaurant",
+      "title_ja": "おすすめ料理を聞く",
+      "title_en": "Ask for a recommendation",
+      "situation_ja": "メニューを見ても何を選ぶか迷っています。店員におすすめを聞きます。",
+      "source_basis": "飲食編: 案内・注文、料理説明場面を客側に再構成",
+      "dialogue": [
+        {
+          "role": "other",
+          "speaker": "Staff",
+          "en": "Here's the menu. Please take your time.",
+          "ja": "こちらがメニューです。ごゆっくりどうぞ。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Thank you. What do you recommend?",
+          "meaning_ja": "ありがとうございます。おすすめは何ですか？",
+          "chunks": [
+            {
+              "en": "Thank you.",
+              "ja": "ありがとうございます"
+            },
+            {
+              "en": "What do you recommend?",
+              "ja": "何がおすすめですか"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Staff",
+          "en": "Our grilled fish is very popular.",
+          "ja": "グリルした魚料理がとても人気です。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "That sounds good. I'll have that, please.",
+          "meaning_ja": "よさそうですね。それをお願いします。",
+          "chunks": [
+            {
+              "en": "That sounds good.",
+              "ja": "よさそうですね"
+            },
+            {
+              "en": "I'll have that,",
+              "ja": "それをお願いします"
+            },
+            {
+              "en": "please.",
+              "ja": "お願いします"
+            }
+          ]
+        }
+      ],
+      "tip_ja": "What do you recommend? → That sounds good. I'll have that. は使い回しやすい流れです。"
+    },
+    {
+      "id": "restaurant_order_023",
+      "icon": "🍽️",
+      "category_ja": "食事",
+      "category": "Restaurant",
+      "title_ja": "料理と飲み物を注文する",
+      "title_en": "Order food and a drink",
+      "situation_ja": "注文が決まりました。主菜と飲み物をまとめて注文します。",
+      "source_basis": "飲食編: 案内・注文場面を旅行者側に再構成",
+      "dialogue": [
+        {
+          "role": "other",
+          "speaker": "Server",
+          "en": "Are you ready to order?",
+          "ja": "ご注文はお決まりですか？"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Yes. I'd like the grilled chicken and a sparkling water, please.",
+          "meaning_ja": "はい。グリルチキンと炭酸水をお願いします。",
+          "chunks": [
+            {
+              "en": "Yes.",
+              "ja": "はい"
+            },
+            {
+              "en": "I'd like",
+              "ja": "お願いします"
+            },
+            {
+              "en": "the grilled chicken",
+              "ja": "グリルチキンを"
+            },
+            {
+              "en": "and a sparkling water,",
+              "ja": "それと炭酸水を"
+            },
+            {
+              "en": "please.",
+              "ja": "お願いします"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Server",
+          "en": "Certainly. Anything else?",
+          "ja": "かしこまりました。ほかにございますか？"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "No, that's all for now. Thank you.",
+          "meaning_ja": "いいえ、今のところ以上です。ありがとうございます。",
+          "chunks": [
+            {
+              "en": "No,",
+              "ja": "いいえ"
+            },
+            {
+              "en": "that's all for now.",
+              "ja": "今のところ以上です"
+            },
+            {
+              "en": "Thank you.",
+              "ja": "ありがとうございます"
+            }
+          ]
+        }
+      ],
+      "tip_ja": "I'd like A and B, please. と That's all for now. で注文を簡潔にまとめられます。"
+    },
+    {
+      "id": "restaurant_allergy_024",
+      "icon": "🍽️",
+      "category_ja": "食事",
+      "category": "Restaurant",
+      "title_ja": "食物アレルギーを伝える",
+      "title_en": "Explain a food allergy",
+      "situation_ja": "料理を注文する前に、アレルギーのある食材が入っていないか確認します。",
+      "source_basis": "飲食編: 案内・注文、食材・アレルギー場面を客側に再構成",
+      "dialogue": [
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "I have a shellfish allergy. Does this dish contain any shellfish?",
+          "meaning_ja": "甲殻類アレルギーがあります。この料理に甲殻類は入っていますか？",
+          "chunks": [
+            {
+              "en": "I have",
+              "ja": "あります"
+            },
+            {
+              "en": "a shellfish allergy.",
+              "ja": "甲殻類アレルギーが"
+            },
+            {
+              "en": "Does this dish contain",
+              "ja": "この料理には入っていますか"
+            },
+            {
+              "en": "any shellfish?",
+              "ja": "甲殻類が"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Server",
+          "en": "Let me check with the kitchen.",
+          "ja": "厨房に確認してまいります。"
+        },
+        {
+          "role": "other",
+          "speaker": "Server",
+          "en": "It doesn't contain shellfish, but it is prepared in the same kitchen.",
+          "ja": "甲殻類は入っていませんが、同じ厨房で調理しています。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Thanks for checking. I'll choose something else.",
+          "meaning_ja": "確認ありがとうございます。別のものにします。",
+          "chunks": [
+            {
+              "en": "Thanks for checking.",
+              "ja": "確認ありがとうございます"
+            },
+            {
+              "en": "I'll choose",
+              "ja": "選びます"
+            },
+            {
+              "en": "something else.",
+              "ja": "別のものを"
+            }
+          ]
+        }
+      ],
+      "tip_ja": "I have a ... allergy. / Does this contain ...? はアレルギー確認の基本表現です。"
+    },
+    {
+      "id": "restaurant_dish_explanation_025",
+      "icon": "🍽️",
+      "category_ja": "食事",
+      "category": "Restaurant",
+      "title_ja": "料理がどんなものか聞く",
+      "title_en": "Ask what a dish is",
+      "situation_ja": "メニューに知らない料理名があります。どんな料理か、辛いかどうかを聞きます。",
+      "source_basis": "飲食編: 案内・注文、料理説明場面を客側に再構成",
+      "dialogue": [
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Excuse me. What is this dish?",
+          "meaning_ja": "すみません。この料理はどんなものですか？",
+          "chunks": [
+            {
+              "en": "Excuse me.",
+              "ja": "すみません"
+            },
+            {
+              "en": "What is",
+              "ja": "何ですか"
+            },
+            {
+              "en": "this dish?",
+              "ja": "この料理は"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Server",
+          "en": "It's a rice dish with chicken and vegetables.",
+          "ja": "鶏肉と野菜を使ったご飯料理です。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Is it spicy?",
+          "meaning_ja": "辛いですか？",
+          "chunks": [
+            {
+              "en": "Is it",
+              "ja": "それは"
+            },
+            {
+              "en": "spicy?",
+              "ja": "辛いですか"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Server",
+          "en": "A little, but we can make it mild.",
+          "ja": "少し辛いですが、辛さを控えめにできます。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Then could you make it mild, please?",
+          "meaning_ja": "では、辛さ控えめにしていただけますか？",
+          "chunks": [
+            {
+              "en": "Then",
+              "ja": "では"
+            },
+            {
+              "en": "could you make it",
+              "ja": "していただけますか"
+            },
+            {
+              "en": "mild,",
+              "ja": "辛さ控えめに"
+            },
+            {
+              "en": "please?",
+              "ja": "お願いします"
+            }
+          ]
+        }
+      ],
+      "tip_ja": "What is this dish? / Is it spicy? / Could you make it mild? は未知の料理で役立ちます。"
+    },
+    {
+      "id": "restaurant_extra_request_026",
+      "icon": "🍽️",
+      "category_ja": "食事",
+      "category": "Restaurant",
+      "title_ja": "水や追加のものを頼む",
+      "title_en": "Ask for something extra",
+      "situation_ja": "食事中に水ともう1枚のナプキンが必要になりました。店員に追加で頼みます。",
+      "source_basis": "飲食編: 料理の提供・追加対応場面を客側に再構成",
+      "dialogue": [
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Excuse me. Could we have some more water, please?",
+          "meaning_ja": "すみません。お水をもう少しいただけますか？",
+          "chunks": [
+            {
+              "en": "Excuse me.",
+              "ja": "すみません"
+            },
+            {
+              "en": "Could we have",
+              "ja": "いただけますか"
+            },
+            {
+              "en": "some more water,",
+              "ja": "お水をもう少し"
+            },
+            {
+              "en": "please?",
+              "ja": "お願いします"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Server",
+          "en": "Of course.",
+          "ja": "もちろんです。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "And could I have another napkin?",
+          "meaning_ja": "それと、ナプキンをもう1枚いただけますか？",
+          "chunks": [
+            {
+              "en": "And could I have",
+              "ja": "それと、いただけますか"
+            },
+            {
+              "en": "another napkin?",
+              "ja": "ナプキンをもう1枚"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Server",
+          "en": "Certainly. I'll bring it right away.",
+          "ja": "かしこまりました。すぐにお持ちします。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Thank you.",
+          "meaning_ja": "ありがとうございます。",
+          "chunks": [
+            {
+              "en": "Thank you.",
+              "ja": "ありがとうございます"
+            }
+          ]
+        }
+      ],
+      "tip_ja": "some more ... と another ... を使うと追加依頼を簡単に言えます。"
+    },
+    {
+      "id": "restaurant_bill_027",
+      "icon": "🍽️",
+      "category_ja": "食事",
+      "category": "Restaurant",
+      "title_ja": "会計を頼んでカードで支払う",
+      "title_en": "Ask for the bill and pay by card",
+      "situation_ja": "食事が終わりました。会計をお願いし、クレジットカードが使えるか確認します。",
+      "source_basis": "飲食編: 会計・見送り、支払い方法・カード場面を客側に再構成",
+      "dialogue": [
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Excuse me. Could we have the bill, please?",
+          "meaning_ja": "すみません。お会計をお願いします。",
+          "chunks": [
+            {
+              "en": "Excuse me.",
+              "ja": "すみません"
+            },
+            {
+              "en": "Could we have",
+              "ja": "いただけますか"
+            },
+            {
+              "en": "the bill,",
+              "ja": "会計を"
+            },
+            {
+              "en": "please?",
+              "ja": "お願いします"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Server",
+          "en": "Certainly. I'll bring it right over.",
+          "ja": "かしこまりました。すぐにお持ちします。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Can I pay by credit card?",
+          "meaning_ja": "クレジットカードで支払えますか？",
+          "chunks": [
+            {
+              "en": "Can I pay",
+              "ja": "支払えますか"
+            },
+            {
+              "en": "by credit card?",
+              "ja": "クレジットカードで"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Server",
+          "en": "Yes. Visa and Mastercard are accepted.",
+          "ja": "はい。VisaとMastercardをご利用いただけます。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Great. Thank you.",
+          "meaning_ja": "分かりました。ありがとうございます。",
+          "chunks": [
+            {
+              "en": "Great.",
+              "ja": "分かりました"
+            },
+            {
+              "en": "Thank you.",
+              "ja": "ありがとうございます"
+            }
+          ]
+        }
+      ],
+      "tip_ja": "Could we have the bill? と Can I pay by credit card? は海外のレストランで頻出です。"
+    },
+    {
+      "id": "restaurant_wrong_order_028",
+      "icon": "🍽️",
+      "category_ja": "食事",
+      "category": "Restaurant",
+      "title_ja": "注文と違う料理が来たことを伝える",
+      "title_en": "Say that the order is wrong",
+      "situation_ja": "運ばれてきた料理が、自分が注文したものと違います。落ち着いて店員に確認します。",
+      "source_basis": "飲食編: 不手際・トラブル対応、注文間違い場面を客側に再構成",
+      "dialogue": [
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Excuse me. I don't think this is what I ordered.",
+          "meaning_ja": "すみません。これは私が注文したものではないと思います。",
+          "chunks": [
+            {
+              "en": "Excuse me.",
+              "ja": "すみません"
+            },
+            {
+              "en": "I don't think",
+              "ja": "〜ではないと思います"
+            },
+            {
+              "en": "this is",
+              "ja": "これは"
+            },
+            {
+              "en": "what I ordered.",
+              "ja": "私が注文したもの"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Server",
+          "en": "I'm very sorry. What did you order?",
+          "ja": "大変申し訳ありません。何をご注文されましたか？"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "I ordered the grilled salmon.",
+          "meaning_ja": "グリルサーモンを注文しました。",
+          "chunks": [
+            {
+              "en": "I ordered",
+              "ja": "注文しました"
+            },
+            {
+              "en": "the grilled salmon.",
+              "ja": "グリルサーモンを"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Server",
+          "en": "I apologize. We'll bring the correct dish right away.",
+          "ja": "申し訳ありません。すぐに正しい料理をお持ちします。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Thank you.",
+          "meaning_ja": "ありがとうございます。",
+          "chunks": [
+            {
+              "en": "Thank you.",
+              "ja": "ありがとうございます"
+            }
+          ]
+        }
+      ],
+      "tip_ja": "I don't think this is what I ordered. は強く言い切りすぎず注文違いを伝えられます。"
+    },
+    {
+      "id": "immigration_passport_biometrics_029",
+      "icon": "🛂",
+      "category_ja": "入国",
+      "category": "Immigration",
+      "title_ja": "パスポートを渡して指紋認証に対応する",
+      "title_en": "Show your passport and follow biometric instructions",
+      "situation_ja": "入国審査の最初です。パスポートを渡し、指紋認証の指示に従います。",
+      "source_basis": "海外旅行編の入国場面・索引にある passport / right thumb の表現を参考に独自再構成",
+      "dialogue": [
+        {
+          "role": "other",
+          "speaker": "Officer",
+          "en": "Your passport, please.",
+          "ja": "パスポートをお願いします。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Sure. Here you are.",
+          "meaning_ja": "はい、どうぞ。",
+          "chunks": [
+            {
+              "en": "Sure.",
+              "ja": "はい"
+            },
+            {
+              "en": "Here you are.",
+              "ja": "どうぞ"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Officer",
+          "en": "Put your right thumb on the screen, please.",
+          "ja": "右手の親指を画面に置いてください。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Like this?",
+          "meaning_ja": "こうですか？",
+          "chunks": [
+            {
+              "en": "Like this?",
+              "ja": "こうですか"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Officer",
+          "en": "Yes, that's fine.",
+          "ja": "はい、それで大丈夫です。"
+        }
+      ],
+      "tip_ja": "短い指示には Sure. / Here you are. / Like this? のような短い応答で十分です。"
+    },
+    {
+      "id": "immigration_conference_details_030",
+      "icon": "🛂",
+      "category_ja": "入国",
+      "category": "Immigration",
+      "title_ja": "どの国際会議に参加するか答える",
+      "title_en": "Explain which conference you are attending",
+      "situation_ja": "訪問目的を『国際会議参加』と答えた後、どの会議に参加するのか追加で聞かれます。",
+      "source_basis": "国際会議出張向けの独自追加シーン",
+      "dialogue": [
+        {
+          "role": "other",
+          "speaker": "Officer",
+          "en": "Which conference are you attending?",
+          "ja": "どの会議に参加するのですか？"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "I'm attending an international conference on signal processing.",
+          "meaning_ja": "信号処理の国際会議に参加します。",
+          "chunks": [
+            {
+              "en": "I'm attending",
+              "ja": "参加します"
+            },
+            {
+              "en": "an international conference",
+              "ja": "国際会議に"
+            },
+            {
+              "en": "on signal processing.",
+              "ja": "信号処理の"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Officer",
+          "en": "Where is it being held?",
+          "ja": "どこで開催されますか？"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "It's being held at the convention center downtown.",
+          "meaning_ja": "市内のコンベンションセンターで開催されます。",
+          "chunks": [
+            {
+              "en": "It's being held",
+              "ja": "開催されます"
+            },
+            {
+              "en": "at the convention center",
+              "ja": "コンベンションセンターで"
+            },
+            {
+              "en": "downtown.",
+              "ja": "市内の"
+            }
+          ]
+        }
+      ],
+      "tip_ja": "I'm attending ... で参加する会議、It's being held at ... で開催場所を説明できます。"
+    },
+    {
+      "id": "immigration_invitation_031",
+      "icon": "🛂",
+      "category_ja": "入国",
+      "category": "Immigration",
+      "title_ja": "会議の招待状・登録確認を見せる",
+      "title_en": "Show conference registration or invitation",
+      "situation_ja": "入国審査官から国際会議への参加を確認できる書類があるか聞かれます。",
+      "source_basis": "国際会議出張向けの独自追加シーン",
+      "dialogue": [
+        {
+          "role": "other",
+          "speaker": "Officer",
+          "en": "Do you have anything showing your conference registration?",
+          "ja": "会議への登録を確認できるものはありますか？"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Yes. I have the registration confirmation on my phone.",
+          "meaning_ja": "はい。スマートフォンに登録確認があります。",
+          "chunks": [
+            {
+              "en": "Yes.",
+              "ja": "はい"
+            },
+            {
+              "en": "I have",
+              "ja": "あります"
+            },
+            {
+              "en": "the registration confirmation",
+              "ja": "登録確認が"
+            },
+            {
+              "en": "on my phone.",
+              "ja": "スマートフォンに"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Officer",
+          "en": "Could you show it to me?",
+          "ja": "見せていただけますか？"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Of course. Here it is.",
+          "meaning_ja": "もちろんです。こちらです。",
+          "chunks": [
+            {
+              "en": "Of course.",
+              "ja": "もちろんです"
+            },
+            {
+              "en": "Here it is.",
+              "ja": "こちらです"
+            }
+          ]
+        }
+      ],
+      "tip_ja": "書類・予約確認などを求められたら I have ... / Here it is. で簡潔に対応できます。"
+    },
+    {
+      "id": "immigration_exact_stay_032",
+      "icon": "🛂",
+      "category_ja": "入国",
+      "category": "Immigration",
+      "title_ja": "滞在日数と帰国日を答える",
+      "title_en": "Give your length of stay and departure date",
+      "situation_ja": "滞在期間を聞かれ、さらにいつ出国するか確認されます。",
+      "source_basis": "海外旅行編が扱う滞在期間の要素を、出国日確認まで広げた独自再構成",
+      "dialogue": [
+        {
+          "role": "other",
+          "speaker": "Officer",
+          "en": "How long will you be staying?",
+          "ja": "どのくらい滞在しますか？"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "I'll be staying for four days.",
+          "meaning_ja": "4日間滞在します。",
+          "chunks": [
+            {
+              "en": "I'll be staying",
+              "ja": "滞在します"
+            },
+            {
+              "en": "for four days.",
+              "ja": "4日間"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Officer",
+          "en": "When are you leaving?",
+          "ja": "いつ出国しますか？"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "I'm leaving on Friday morning.",
+          "meaning_ja": "金曜日の朝に出国します。",
+          "chunks": [
+            {
+              "en": "I'm leaving",
+              "ja": "出国します"
+            },
+            {
+              "en": "on Friday morning.",
+              "ja": "金曜日の朝に"
+            }
+          ]
+        }
+      ],
+      "tip_ja": "期間は for + 期間、出発日は I'm leaving on ... で答えられます。"
+    },
+    {
+      "id": "immigration_hotel_address_033",
+      "icon": "🛂",
+      "category_ja": "入国",
+      "category": "Immigration",
+      "title_ja": "ホテル名と場所を答える",
+      "title_en": "Give your hotel name and location",
+      "situation_ja": "滞在先についてホテル名だけでなく、場所も聞かれます。",
+      "source_basis": "海外旅行編の滞在先場面を国際会議出張向けに拡張",
+      "dialogue": [
+        {
+          "role": "other",
+          "speaker": "Officer",
+          "en": "Where will you be staying?",
+          "ja": "どこに滞在しますか？"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "I'm staying at the Central Hotel.",
+          "meaning_ja": "セントラルホテルに滞在します。",
+          "chunks": [
+            {
+              "en": "I'm staying at",
+              "ja": "滞在します"
+            },
+            {
+              "en": "the Central Hotel.",
+              "ja": "セントラルホテルに"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Officer",
+          "en": "Do you know the address?",
+          "ja": "住所は分かりますか？"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Yes. It's near the convention center. I have the address on my phone.",
+          "meaning_ja": "はい。コンベンションセンターの近くです。住所はスマートフォンにあります。",
+          "chunks": [
+            {
+              "en": "Yes.",
+              "ja": "はい"
+            },
+            {
+              "en": "It's near",
+              "ja": "近くです"
+            },
+            {
+              "en": "the convention center.",
+              "ja": "コンベンションセンターの"
+            },
+            {
+              "en": "I have the address",
+              "ja": "住所があります"
+            },
+            {
+              "en": "on my phone.",
+              "ja": "スマートフォンに"
+            }
+          ]
+        }
+      ],
+      "tip_ja": "住所を暗記していなくても I have the address on my phone. と伝えられるようにしておくと便利です。"
+    },
+    {
+      "id": "immigration_occupation_034",
+      "icon": "🛂",
+      "category_ja": "入国",
+      "category": "Immigration",
+      "title_ja": "職業を聞かれて大学教員と答える",
+      "title_en": "Answer a question about your occupation",
+      "situation_ja": "入国審査官から職業を聞かれます。大学で教員をしていることを簡潔に答えます。",
+      "source_basis": "国際会議出張で想定される追加質問として独自作成",
+      "dialogue": [
+        {
+          "role": "other",
+          "speaker": "Officer",
+          "en": "What do you do?",
+          "ja": "お仕事は何ですか？"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "I'm a university professor in Japan.",
+          "meaning_ja": "日本の大学教員です。",
+          "chunks": [
+            {
+              "en": "I'm",
+              "ja": "私は"
+            },
+            {
+              "en": "a university professor",
+              "ja": "大学教員です"
+            },
+            {
+              "en": "in Japan.",
+              "ja": "日本の"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Officer",
+          "en": "Are you here for work?",
+          "ja": "仕事で来たのですか？"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Yes. I'm here for a conference.",
+          "meaning_ja": "はい。学会のために来ました。",
+          "chunks": [
+            {
+              "en": "Yes.",
+              "ja": "はい"
+            },
+            {
+              "en": "I'm here",
+              "ja": "来ました"
+            },
+            {
+              "en": "for a conference.",
+              "ja": "学会のために"
+            }
+          ]
+        }
+      ],
+      "tip_ja": "What do you do? は職業を尋ねる表現です。職名は自分の実際の立場に合わせて置き換えます。"
+    },
+    {
+      "id": "immigration_return_ticket_035",
+      "icon": "🛂",
+      "category_ja": "入国",
+      "category": "Immigration",
+      "title_ja": "帰国便を予約していると答える",
+      "title_en": "Confirm your return flight",
+      "situation_ja": "滞在後に出国する予定があることを確認するため、帰国便について聞かれます。",
+      "source_basis": "国際会議出張で想定される追加質問として独自作成",
+      "dialogue": [
+        {
+          "role": "other",
+          "speaker": "Officer",
+          "en": "Do you have a return ticket?",
+          "ja": "帰国便の航空券はありますか？"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Yes. My return flight is booked for Friday.",
+          "meaning_ja": "はい。帰国便は金曜日で予約しています。",
+          "chunks": [
+            {
+              "en": "Yes.",
+              "ja": "はい"
+            },
+            {
+              "en": "My return flight",
+              "ja": "帰国便は"
+            },
+            {
+              "en": "is booked",
+              "ja": "予約しています"
+            },
+            {
+              "en": "for Friday.",
+              "ja": "金曜日で"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Officer",
+          "en": "Can you show me the booking?",
+          "ja": "予約を見せてもらえますか？"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Sure. I have it on my phone.",
+          "meaning_ja": "はい。スマートフォンにあります。",
+          "chunks": [
+            {
+              "en": "Sure.",
+              "ja": "はい"
+            },
+            {
+              "en": "I have it",
+              "ja": "あります"
+            },
+            {
+              "en": "on my phone.",
+              "ja": "スマートフォンに"
+            }
+          ]
+        }
+      ],
+      "tip_ja": "予約情報をスマートフォンで提示する流れも一緒に練習しておくと実用的です。"
+    },
+    {
+      "id": "immigration_previous_visit_036",
+      "icon": "🛂",
+      "category_ja": "入国",
+      "category": "Immigration",
+      "title_ja": "初めての訪問か聞かれる",
+      "title_en": "Say whether this is your first visit",
+      "situation_ja": "入国審査官から、その国を訪れるのが初めてかどうか聞かれます。",
+      "source_basis": "国際会議出張で想定される追加質問として独自作成",
+      "dialogue": [
+        {
+          "role": "other",
+          "speaker": "Officer",
+          "en": "Is this your first time here?",
+          "ja": "こちらに来るのは初めてですか？"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Yes, this is my first visit.",
+          "meaning_ja": "はい、今回が初めてです。",
+          "chunks": [
+            {
+              "en": "Yes,",
+              "ja": "はい"
+            },
+            {
+              "en": "this is",
+              "ja": "今回が"
+            },
+            {
+              "en": "my first visit.",
+              "ja": "初めての訪問です"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Officer",
+          "en": "How long are you staying?",
+          "ja": "どのくらい滞在しますか？"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Just four days.",
+          "meaning_ja": "4日間だけです。",
+          "chunks": [
+            {
+              "en": "Just",
+              "ja": "〜だけです"
+            },
+            {
+              "en": "four days.",
+              "ja": "4日間"
+            }
+          ]
+        }
+      ],
+      "tip_ja": "first time / first visit は初訪問を答えるときの基本表現です。"
+    },
+    {
+      "id": "transport_find_station_037",
+      "icon": "🚆",
+      "category_ja": "移動",
+      "category": "Transportation",
+      "title_ja": "駅の場所を聞く",
+      "title_en": "Ask where the train station is",
+      "situation_ja": "空港やホテルから電車で移動したいのですが、駅の場所が分かりません。案内所やスタッフに尋ねます。",
+      "source_basis": "海外旅行編の train station / Where's ...? / How far ...? を参考に独自再構成",
+      "dialogue": [
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Excuse me. Where's the train station?",
+          "meaning_ja": "すみません。駅はどこですか？",
+          "chunks": [
+            {
+              "en": "Excuse me.",
+              "ja": "すみません"
+            },
+            {
+              "en": "Where's",
+              "ja": "どこですか"
+            },
+            {
+              "en": "the train station?",
+              "ja": "駅は"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Staff",
+          "en": "It's downstairs, next to the bus terminal.",
+          "ja": "下の階です。バスターミナルの隣にあります。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Thank you. Is it far from here?",
+          "meaning_ja": "ありがとうございます。ここから遠いですか？",
+          "chunks": [
+            {
+              "en": "Thank you.",
+              "ja": "ありがとうございます"
+            },
+            {
+              "en": "Is it far",
+              "ja": "遠いですか"
+            },
+            {
+              "en": "from here?",
+              "ja": "ここから"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Staff",
+          "en": "No. It's about a five-minute walk.",
+          "ja": "いいえ。歩いて5分くらいです。"
+        }
+      ],
+      "tip_ja": "Where's ...? と Is it far from here? を組み合わせると、場所と距離を続けて確認できます。"
+    },
+    {
+      "id": "transport_buy_ticket_038",
+      "icon": "🚆",
+      "category_ja": "移動",
+      "category": "Transportation",
+      "title_ja": "電車の切符を買う",
+      "title_en": "Buy a train ticket",
+      "situation_ja": "駅の窓口または券売機付近で、目的地までの切符を買います。",
+      "source_basis": "海外旅行編の交通・運賃表現、および宿泊編の交通手段語彙を参考に独自再構成",
+      "dialogue": [
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "One ticket to Central Station, please.",
+          "meaning_ja": "セントラル駅まで1枚お願いします。",
+          "chunks": [
+            {
+              "en": "One ticket",
+              "ja": "切符を1枚"
+            },
+            {
+              "en": "to Central Station,",
+              "ja": "セントラル駅まで"
+            },
+            {
+              "en": "please.",
+              "ja": "お願いします"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Staff",
+          "en": "One-way or round trip?",
+          "ja": "片道ですか、往復ですか？"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "One-way, please.",
+          "meaning_ja": "片道でお願いします。",
+          "chunks": [
+            {
+              "en": "One-way,",
+              "ja": "片道で"
+            },
+            {
+              "en": "please.",
+              "ja": "お願いします"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Staff",
+          "en": "That's eight dollars.",
+          "ja": "8ドルです。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Can I pay by card?",
+          "meaning_ja": "カードで支払えますか？",
+          "chunks": [
+            {
+              "en": "Can I pay",
+              "ja": "支払えますか"
+            },
+            {
+              "en": "by card?",
+              "ja": "カードで"
+            }
+          ]
+        }
+      ],
+      "tip_ja": "One ticket to ... と One-way / round trip を覚えると、鉄道の切符購入が簡単になります。"
+    },
+    {
+      "id": "transport_platform_039",
+      "icon": "🚆",
+      "category_ja": "移動",
+      "category": "Transportation",
+      "title_ja": "乗るホームを確認する",
+      "title_en": "Ask which platform to use",
+      "situation_ja": "切符は買いましたが、どのホームから乗ればよいか分かりません。駅員に確認します。",
+      "source_basis": "海外旅行編の電車移動・駅利用場面を参考に独自追加",
+      "dialogue": [
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Which platform do I need for the train to Central Station?",
+          "meaning_ja": "セントラル駅行きは何番ホームですか？",
+          "chunks": [
+            {
+              "en": "Which platform",
+              "ja": "何番ホームですか"
+            },
+            {
+              "en": "do I need",
+              "ja": "使えばよいですか"
+            },
+            {
+              "en": "for the train",
+              "ja": "電車に乗るために"
+            },
+            {
+              "en": "to Central Station?",
+              "ja": "セントラル駅行きの"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Station staff",
+          "en": "Platform 4.",
+          "ja": "4番ホームです。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Does the next train stop there?",
+          "meaning_ja": "次の電車はそこに停まりますか？",
+          "chunks": [
+            {
+              "en": "Does the next train",
+              "ja": "次の電車は"
+            },
+            {
+              "en": "stop there?",
+              "ja": "そこに停まりますか"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Station staff",
+          "en": "Yes, it does.",
+          "ja": "はい、停まります。"
+        }
+      ],
+      "tip_ja": "Which platform ...? と Does this train stop at ...? は鉄道移動で特に使いやすい確認表現です。"
+    },
+    {
+      "id": "transport_transfer_040",
+      "icon": "🚆",
+      "category_ja": "移動",
+      "category": "Transportation",
+      "title_ja": "電車の乗り換えを聞く",
+      "title_en": "Ask where to change trains",
+      "situation_ja": "目的地まで直通ではありません。どの駅で、どの路線に乗り換えるか確認します。",
+      "source_basis": "宿泊編の take the ～ Line / change trains at ～ Station の交通語彙を参考に独自再構成",
+      "dialogue": [
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Do I need to change trains to get to the convention center?",
+          "meaning_ja": "コンベンションセンターへ行くには乗り換えが必要ですか？",
+          "chunks": [
+            {
+              "en": "Do I need to",
+              "ja": "必要ですか"
+            },
+            {
+              "en": "change trains",
+              "ja": "電車を乗り換えることが"
+            },
+            {
+              "en": "to get to",
+              "ja": "行くために"
+            },
+            {
+              "en": "the convention center?",
+              "ja": "コンベンションセンターへ"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Station staff",
+          "en": "Yes. Change at City Hall Station.",
+          "ja": "はい。シティホール駅で乗り換えてください。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Which line should I take after that?",
+          "meaning_ja": "その後は何線に乗ればよいですか？",
+          "chunks": [
+            {
+              "en": "Which line",
+              "ja": "何線に"
+            },
+            {
+              "en": "should I take",
+              "ja": "乗ればよいですか"
+            },
+            {
+              "en": "after that?",
+              "ja": "その後は"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Station staff",
+          "en": "Take the Blue Line for two stops.",
+          "ja": "ブルーラインに乗って2駅です。"
+        }
+      ],
+      "tip_ja": "change trains at + 駅、take the + 路線名 は乗り換え説明の基本パターンです。"
+    },
+    {
+      "id": "transport_confirm_train_041",
+      "icon": "🚆",
+      "category_ja": "移動",
+      "category": "Transportation",
+      "title_ja": "この電車で合っているか確認する",
+      "title_en": "Check whether this is the right train",
+      "situation_ja": "ホームに電車が来ましたが、目的地へ行く電車か自信がありません。近くの人や駅員に確認します。",
+      "source_basis": "海外旅行編の電車移動場面を参考に独自追加",
+      "dialogue": [
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Excuse me. Does this train go to Central Station?",
+          "meaning_ja": "すみません。この電車はセントラル駅に行きますか？",
+          "chunks": [
+            {
+              "en": "Excuse me.",
+              "ja": "すみません"
+            },
+            {
+              "en": "Does this train go",
+              "ja": "この電車は行きますか"
+            },
+            {
+              "en": "to Central Station?",
+              "ja": "セントラル駅に"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Passenger",
+          "en": "Yes, but you need to get off at the third stop.",
+          "ja": "はい。ただし3つ目の駅で降りる必要があります。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "The third stop. Got it. Thank you.",
+          "meaning_ja": "3つ目の駅ですね。分かりました。ありがとうございます。",
+          "chunks": [
+            {
+              "en": "The third stop.",
+              "ja": "3つ目の駅ですね"
+            },
+            {
+              "en": "Got it.",
+              "ja": "分かりました"
+            },
+            {
+              "en": "Thank you.",
+              "ja": "ありがとうございます"
+            }
+          ]
+        }
+      ],
+      "tip_ja": "Does this train go to ...? は、乗車前の最終確認にとても便利です。"
+    },
+    {
+      "id": "transport_wrong_train_042",
+      "icon": "🚆",
+      "category_ja": "移動",
+      "category": "Transportation",
+      "title_ja": "違う電車に乗ったことに気付く",
+      "title_en": "Handle taking the wrong train",
+      "situation_ja": "電車に乗った後、方向を間違えたかもしれないと気付きました。次にどうすればよいか尋ねます。",
+      "source_basis": "移動トラブル向けの独自追加シーン",
+      "dialogue": [
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Excuse me. I think I took the wrong train.",
+          "meaning_ja": "すみません。間違った電車に乗ったと思います。",
+          "chunks": [
+            {
+              "en": "Excuse me.",
+              "ja": "すみません"
+            },
+            {
+              "en": "I think",
+              "ja": "〜と思います"
+            },
+            {
+              "en": "I took",
+              "ja": "乗りました"
+            },
+            {
+              "en": "the wrong train.",
+              "ja": "間違った電車に"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Passenger",
+          "en": "Where are you trying to go?",
+          "ja": "どこへ行こうとしていますか？"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "I'm trying to get to the convention center.",
+          "meaning_ja": "コンベンションセンターへ行こうとしています。",
+          "chunks": [
+            {
+              "en": "I'm trying to get to",
+              "ja": "行こうとしています"
+            },
+            {
+              "en": "the convention center.",
+              "ja": "コンベンションセンターへ"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Passenger",
+          "en": "Get off at the next station and take the train in the opposite direction.",
+          "ja": "次の駅で降りて、反対方向の電車に乗ってください。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Okay. Thank you for your help.",
+          "meaning_ja": "分かりました。ありがとうございます。",
+          "chunks": [
+            {
+              "en": "Okay.",
+              "ja": "分かりました"
+            },
+            {
+              "en": "Thank you",
+              "ja": "ありがとうございます"
+            },
+            {
+              "en": "for your help.",
+              "ja": "助けていただいて"
+            }
+          ]
+        }
+      ],
+      "tip_ja": "I think I took the wrong train. を言えると、間違えた後でも落ち着いて助けを求められます。"
+    },
+    {
+      "id": "transport_train_delay_043",
+      "icon": "🚆",
+      "category_ja": "移動",
+      "category": "Transportation",
+      "title_ja": "電車の遅延を確認する",
+      "title_en": "Ask about a train delay",
+      "situation_ja": "電車がなかなか来ません。学会開始時刻に間に合うか心配なので、遅延状況を駅員に確認します。",
+      "source_basis": "移動トラブル向けの独自追加シーン",
+      "dialogue": [
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Excuse me. Is the train delayed?",
+          "meaning_ja": "すみません。電車は遅れていますか？",
+          "chunks": [
+            {
+              "en": "Excuse me.",
+              "ja": "すみません"
+            },
+            {
+              "en": "Is the train",
+              "ja": "電車は"
+            },
+            {
+              "en": "delayed?",
+              "ja": "遅れていますか"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Station staff",
+          "en": "Yes. It's running about twenty minutes late.",
+          "ja": "はい。約20分遅れています。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Do you know when the next train will arrive?",
+          "meaning_ja": "次の電車がいつ到着するか分かりますか？",
+          "chunks": [
+            {
+              "en": "Do you know",
+              "ja": "分かりますか"
+            },
+            {
+              "en": "when the next train",
+              "ja": "次の電車がいつ"
+            },
+            {
+              "en": "will arrive?",
+              "ja": "到着するか"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Station staff",
+          "en": "It should arrive around 9:10.",
+          "ja": "9時10分ごろ到着する予定です。"
+        }
+      ],
+      "tip_ja": "Is the train delayed? と Do you know when ... will arrive? で遅延時の必要情報を確認できます。"
+    },
+    {
+      "id": "transport_taxi_destination_044",
+      "icon": "🚆",
+      "category_ja": "移動",
+      "category": "Transportation",
+      "title_ja": "タクシーで目的地を伝える",
+      "title_en": "Tell a taxi driver your destination",
+      "situation_ja": "空港や駅からタクシーに乗り、ホテルや学会会場まで行きます。",
+      "source_basis": "海外旅行編の To the airport / To this hotel / To this address, please. を参考に独自再構成",
+      "dialogue": [
+        {
+          "role": "other",
+          "speaker": "Driver",
+          "en": "Where to?",
+          "ja": "どちらまでですか？"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "To the convention center, please.",
+          "meaning_ja": "コンベンションセンターまでお願いします。",
+          "chunks": [
+            {
+              "en": "To",
+              "ja": "〜まで"
+            },
+            {
+              "en": "the convention center,",
+              "ja": "コンベンションセンター"
+            },
+            {
+              "en": "please.",
+              "ja": "お願いします"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Driver",
+          "en": "Sure. Do you have a specific entrance in mind?",
+          "ja": "分かりました。特定の入口はありますか？"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "The main entrance, please.",
+          "meaning_ja": "正面入口までお願いします。",
+          "chunks": [
+            {
+              "en": "The main entrance,",
+              "ja": "正面入口まで"
+            },
+            {
+              "en": "please.",
+              "ja": "お願いします"
+            }
+          ]
+        }
+      ],
+      "tip_ja": "To + 場所, please. はタクシーで最もシンプルな目的地の伝え方です。"
+    },
+    {
+      "id": "transport_taxi_address_045",
+      "icon": "🚆",
+      "category_ja": "移動",
+      "category": "Transportation",
+      "title_ja": "タクシーで住所を見せる",
+      "title_en": "Show an address to a taxi driver",
+      "situation_ja": "ホテル名や施設名が伝わりにくいため、スマートフォンに表示した住所を運転手に見せます。",
+      "source_basis": "海外旅行編の To this address / To this hotel を参考に独自再構成",
+      "dialogue": [
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Could you take me to this address, please?",
+          "meaning_ja": "この住所までお願いできますか？",
+          "chunks": [
+            {
+              "en": "Could you take me",
+              "ja": "連れて行っていただけますか"
+            },
+            {
+              "en": "to this address,",
+              "ja": "この住所まで"
+            },
+            {
+              "en": "please?",
+              "ja": "お願いします"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Driver",
+          "en": "Sure. Let me take a look.",
+          "ja": "もちろんです。見せてください。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "It's the conference hotel.",
+          "meaning_ja": "学会のホテルです。",
+          "chunks": [
+            {
+              "en": "It's",
+              "ja": "それは"
+            },
+            {
+              "en": "the conference hotel.",
+              "ja": "学会のホテルです"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Driver",
+          "en": "Okay. I know where it is.",
+          "ja": "分かりました。場所は分かります。"
+        }
+      ],
+      "tip_ja": "Could you take me to this address? は、固有名詞が伝わりにくいときに特に便利です。"
+    },
+    {
+      "id": "transport_taxi_fare_time_046",
+      "icon": "🚆",
+      "category_ja": "移動",
+      "category": "Transportation",
+      "title_ja": "タクシーの料金と所要時間を聞く",
+      "title_en": "Ask about taxi fare and travel time",
+      "situation_ja": "タクシーに乗る前または乗った直後に、料金の目安と所要時間を確認します。",
+      "source_basis": "海外旅行編の fare / How far / It takes ... / taxi の表現を参考に独自再構成",
+      "dialogue": [
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "About how much will it cost to get to the airport?",
+          "meaning_ja": "空港までだいたいいくらかかりますか？",
+          "chunks": [
+            {
+              "en": "About how much",
+              "ja": "だいたいいくら"
+            },
+            {
+              "en": "will it cost",
+              "ja": "かかりますか"
+            },
+            {
+              "en": "to get to the airport?",
+              "ja": "空港まで行くのに"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Driver",
+          "en": "Around forty dollars, depending on traffic.",
+          "ja": "交通状況によりますが、40ドルくらいです。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "And how long will it take?",
+          "meaning_ja": "それと、どのくらい時間がかかりますか？",
+          "chunks": [
+            {
+              "en": "And",
+              "ja": "それと"
+            },
+            {
+              "en": "how long",
+              "ja": "どのくらい"
+            },
+            {
+              "en": "will it take?",
+              "ja": "時間がかかりますか"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Driver",
+          "en": "About thirty minutes.",
+          "ja": "30分くらいです。"
+        }
+      ],
+      "tip_ja": "How much will it cost? と How long will it take? をセットで覚えると移動判断に役立ちます。"
+    },
+    {
+      "id": "transport_taxi_payment_047",
+      "icon": "🚆",
+      "category_ja": "移動",
+      "category": "Transportation",
+      "title_ja": "タクシーでカード払いと領収書を頼む",
+      "title_en": "Pay by card and ask for a receipt",
+      "situation_ja": "タクシーで目的地に着きました。カードで支払い、出張精算用の領収書をもらいます。",
+      "source_basis": "海外旅行編の fare と、宿泊・飲食編のカード払い・receipt 表現を組み合わせて独自再構成",
+      "dialogue": [
+        {
+          "role": "other",
+          "speaker": "Driver",
+          "en": "We're here. The fare is thirty-eight dollars.",
+          "ja": "着きました。料金は38ドルです。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Can I pay by credit card?",
+          "meaning_ja": "クレジットカードで支払えますか？",
+          "chunks": [
+            {
+              "en": "Can I pay",
+              "ja": "支払えますか"
+            },
+            {
+              "en": "by credit card?",
+              "ja": "クレジットカードで"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Driver",
+          "en": "Yes, that's fine.",
+          "ja": "はい、大丈夫です。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Could I have a receipt, please?",
+          "meaning_ja": "領収書をいただけますか？",
+          "chunks": [
+            {
+              "en": "Could I have",
+              "ja": "いただけますか"
+            },
+            {
+              "en": "a receipt,",
+              "ja": "領収書を"
+            },
+            {
+              "en": "please?",
+              "ja": "お願いします"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Driver",
+          "en": "Sure. Here you are.",
+          "ja": "もちろんです。どうぞ。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Thank you.",
+          "meaning_ja": "ありがとうございます。",
+          "chunks": [
+            {
+              "en": "Thank you.",
+              "ja": "ありがとうございます"
+            }
+          ]
+        }
+      ],
+      "tip_ja": "出張では Can I pay by credit card? と Could I have a receipt? をセットで使えると便利です。"
+    },
+    {
+      "id": "transport_bus_048",
+      "icon": "🚆",
+      "category_ja": "移動",
+      "category": "Transportation",
+      "title_ja": "バスで学会会場へ行く",
+      "title_en": "Ask which bus to take",
+      "situation_ja": "ホテル近くのバス停から学会会場へ向かいます。どのバスに乗るか、どこで降りるかを確認します。",
+      "source_basis": "海外旅行編の bus stop / buses or trains / How often ... run? を参考に独自再構成",
+      "dialogue": [
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Which bus should I take to the convention center?",
+          "meaning_ja": "コンベンションセンターへはどのバスに乗ればよいですか？",
+          "chunks": [
+            {
+              "en": "Which bus",
+              "ja": "どのバスに"
+            },
+            {
+              "en": "should I take",
+              "ja": "乗ればよいですか"
+            },
+            {
+              "en": "to the convention center?",
+              "ja": "コンベンションセンターへ"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Staff",
+          "en": "Take bus number 12.",
+          "ja": "12番のバスに乗ってください。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Where should I get off?",
+          "meaning_ja": "どこで降りればよいですか？",
+          "chunks": [
+            {
+              "en": "Where",
+              "ja": "どこで"
+            },
+            {
+              "en": "should I get off?",
+              "ja": "降りればよいですか"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Staff",
+          "en": "Get off at Convention Center East.",
+          "ja": "コンベンションセンター東で降りてください。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "How often does the bus run?",
+          "meaning_ja": "バスは何分おきに来ますか？",
+          "chunks": [
+            {
+              "en": "How often",
+              "ja": "何分おきに"
+            },
+            {
+              "en": "does the bus run?",
+              "ja": "バスは運行していますか"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Staff",
+          "en": "About every twenty minutes.",
+          "ja": "20分おきくらいです。"
+        }
+      ],
+      "tip_ja": "Which bus should I take? / Where should I get off? / How often does it run? でバス移動の基本をカバーできます。"
+    },
+    {
+      "id": "conference_registration_049",
+      "icon": "🎓",
+      "category_ja": "学会",
+      "category": "Conference",
+      "title_ja": "会議受付で参加登録する",
+      "title_en": "Check in at conference registration",
+      "situation_ja": "学会会場に到着しました。受付で名前を伝え、参加証を受け取ります。",
+      "source_basis": "国際会議出張向けに独自作成",
+      "dialogue": [
+        {
+          "role": "other",
+          "speaker": "Staff",
+          "en": "Good morning. Are you here to register?",
+          "ja": "おはようございます。参加受付ですか？"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Yes. I'm registered under Matsuoka.",
+          "meaning_ja": "はい。Matsuokaの名前で登録しています。",
+          "chunks": [
+            {
+              "en": "Yes.",
+              "ja": "はい"
+            },
+            {
+              "en": "I'm registered",
+              "ja": "登録しています"
+            },
+            {
+              "en": "under Matsuoka.",
+              "ja": "Matsuokaの名前で"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Staff",
+          "en": "May I see your ID, please?",
+          "ja": "身分証明書を見せていただけますか？"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Sure. Here you are.",
+          "meaning_ja": "はい。どうぞ。",
+          "chunks": [
+            {
+              "en": "Sure.",
+              "ja": "はい"
+            },
+            {
+              "en": "Here you are.",
+              "ja": "どうぞ"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Staff",
+          "en": "Thank you. Here's your badge and conference bag.",
+          "ja": "ありがとうございます。参加証と会議バッグです。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Thank you very much.",
+          "meaning_ja": "ありがとうございます。",
+          "chunks": [
+            {
+              "en": "Thank you",
+              "ja": "ありがとうございます"
+            },
+            {
+              "en": "very much.",
+              "ja": "どうも"
+            }
+          ]
+        }
+      ],
+      "tip_ja": "I'm registered under + 名前 で受付時の登録名を簡潔に伝えられます。"
+    },
+    {
+      "id": "conference_find_room_050",
+      "icon": "🎓",
+      "category_ja": "学会",
+      "category": "Conference",
+      "title_ja": "発表会場を確認する",
+      "title_en": "Find the session room",
+      "situation_ja": "受付を終えましたが、自分のセッション会場がどこか分かりません。スタッフに尋ねます。",
+      "source_basis": "国際会議出張向けに独自作成",
+      "dialogue": [
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Excuse me. Could you tell me where Room 302 is?",
+          "meaning_ja": "すみません。302号室がどこか教えていただけますか？",
+          "chunks": [
+            {
+              "en": "Excuse me.",
+              "ja": "すみません"
+            },
+            {
+              "en": "Could you tell me",
+              "ja": "教えていただけますか"
+            },
+            {
+              "en": "where Room 302 is?",
+              "ja": "302号室がどこか"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Staff",
+          "en": "It's on the third floor, just past the elevators.",
+          "ja": "3階です。エレベーターを過ぎたところにあります。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Is that where the signal processing session is?",
+          "meaning_ja": "そこが信号処理のセッション会場ですか？",
+          "chunks": [
+            {
+              "en": "Is that",
+              "ja": "そこが"
+            },
+            {
+              "en": "where the signal processing session is?",
+              "ja": "信号処理セッションの会場ですか"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Staff",
+          "en": "Yes, that's right.",
+          "ja": "はい、そうです。"
+        }
+      ],
+      "tip_ja": "Could you tell me where ... is? は会場、受付、ポスター会場など幅広く使えます。"
+    },
+    {
+      "id": "conference_greet_chair_051",
+      "icon": "🎓",
+      "category_ja": "学会",
+      "category": "Conference",
+      "title_ja": "座長に挨拶して発表者であることを伝える",
+      "title_en": "Introduce yourself to the session chair",
+      "situation_ja": "自分の発表セッションが始まる前です。座長に挨拶し、自分が発表者であることを伝えます。",
+      "source_basis": "国際会議出張向けに独自作成",
+      "dialogue": [
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Excuse me. Are you the chair for this session?",
+          "meaning_ja": "すみません。このセッションの座長の先生ですか？",
+          "chunks": [
+            {
+              "en": "Excuse me.",
+              "ja": "すみません"
+            },
+            {
+              "en": "Are you",
+              "ja": "〜ですか"
+            },
+            {
+              "en": "the chair",
+              "ja": "座長"
+            },
+            {
+              "en": "for this session?",
+              "ja": "このセッションの"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Chair",
+          "en": "Yes, I am.",
+          "ja": "はい、そうです。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Nice to meet you. I'm Ryo Matsuoka, and I'm presenting the third paper.",
+          "meaning_ja": "はじめまして。松岡です。3番目の論文を発表します。",
+          "chunks": [
+            {
+              "en": "Nice to meet you.",
+              "ja": "はじめまして"
+            },
+            {
+              "en": "I'm Ryo Matsuoka,",
+              "ja": "松岡です"
+            },
+            {
+              "en": "and I'm presenting",
+              "ja": "発表します"
+            },
+            {
+              "en": "the third paper.",
+              "ja": "3番目の論文を"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Chair",
+          "en": "Nice to meet you. Thank you for letting me know.",
+          "ja": "はじめまして。知らせていただきありがとうございます。"
+        }
+      ],
+      "tip_ja": "I'm presenting the third paper. の番号部分を変えれば、自分の発表順を簡潔に伝えられます。"
+    },
+    {
+      "id": "conference_confirm_time_052",
+      "icon": "🎓",
+      "category_ja": "学会",
+      "category": "Conference",
+      "title_ja": "座長に発表時間と質疑時間を確認する",
+      "title_en": "Confirm presentation and Q&A time",
+      "situation_ja": "発表前に、発表時間と質疑応答時間を座長に確認します。",
+      "source_basis": "国際会議出張向けに独自作成",
+      "dialogue": [
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Could I confirm the time limit for my presentation?",
+          "meaning_ja": "発表時間を確認してもよいですか？",
+          "chunks": [
+            {
+              "en": "Could I confirm",
+              "ja": "確認してもよいですか"
+            },
+            {
+              "en": "the time limit",
+              "ja": "時間制限を"
+            },
+            {
+              "en": "for my presentation?",
+              "ja": "私の発表の"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Chair",
+          "en": "You have twelve minutes for the talk and three minutes for questions.",
+          "ja": "発表12分、質疑3分です。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Twelve minutes for the talk and three for questions. Got it.",
+          "meaning_ja": "発表12分、質疑3分ですね。分かりました。",
+          "chunks": [
+            {
+              "en": "Twelve minutes",
+              "ja": "12分"
+            },
+            {
+              "en": "for the talk",
+              "ja": "発表に"
+            },
+            {
+              "en": "and three",
+              "ja": "そして3分"
+            },
+            {
+              "en": "for questions.",
+              "ja": "質疑に"
+            },
+            {
+              "en": "Got it.",
+              "ja": "分かりました"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Chair",
+          "en": "I'll give you a signal when you have two minutes left.",
+          "ja": "残り2分になったら合図します。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Thank you. That helps a lot.",
+          "meaning_ja": "ありがとうございます。助かります。",
+          "chunks": [
+            {
+              "en": "Thank you.",
+              "ja": "ありがとうございます"
+            },
+            {
+              "en": "That helps a lot.",
+              "ja": "とても助かります"
+            }
+          ]
+        }
+      ],
+      "tip_ja": "Could I confirm ...? は学会運営上の確認を丁寧に行うときに便利です。"
+    },
+    {
+      "id": "conference_check_slides_053",
+      "icon": "🎓",
+      "category_ja": "学会",
+      "category": "Conference",
+      "title_ja": "発表前にスライドと接続を確認する",
+      "title_en": "Check your slides and connection",
+      "situation_ja": "セッション開始前に、自分のノートPCやスライドが問題なく映るか確認したい場面です。",
+      "source_basis": "国際会議出張向けに独自作成",
+      "dialogue": [
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Would it be okay if I check my slides before the session starts?",
+          "meaning_ja": "セッション開始前にスライドを確認してもよいですか？",
+          "chunks": [
+            {
+              "en": "Would it be okay",
+              "ja": "よいでしょうか"
+            },
+            {
+              "en": "if I check",
+              "ja": "確認しても"
+            },
+            {
+              "en": "my slides",
+              "ja": "私のスライドを"
+            },
+            {
+              "en": "before the session starts?",
+              "ja": "セッション開始前に"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Staff",
+          "en": "Sure. You can connect your laptop now.",
+          "ja": "もちろんです。今ノートPCを接続できます。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Do I need an HDMI adapter?",
+          "meaning_ja": "HDMIアダプターは必要ですか？",
+          "chunks": [
+            {
+              "en": "Do I need",
+              "ja": "必要ですか"
+            },
+            {
+              "en": "an HDMI adapter?",
+              "ja": "HDMIアダプターが"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Staff",
+          "en": "No, we have one here.",
+          "ja": "いいえ、こちらにあります。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Great. Thank you.",
+          "meaning_ja": "よかったです。ありがとうございます。",
+          "chunks": [
+            {
+              "en": "Great.",
+              "ja": "よかったです"
+            },
+            {
+              "en": "Thank you.",
+              "ja": "ありがとうございます"
+            }
+          ]
+        }
+      ],
+      "tip_ja": "Would it be okay if I ...? は会場スタッフへの丁寧な確認に使いやすい表現です。"
+    },
+    {
+      "id": "conference_ask_question_054",
+      "icon": "🎓",
+      "category_ja": "学会",
+      "category": "Conference",
+      "title_ja": "発表者に質問する",
+      "title_en": "Ask a question after a presentation",
+      "situation_ja": "興味深い発表を聴きました。質疑応答で短く前置きして質問します。",
+      "source_basis": "国際会議出張向けに独自作成",
+      "dialogue": [
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Thank you for the interesting presentation. I have a question about your method.",
+          "meaning_ja": "興味深い発表をありがとうございました。手法について質問があります。",
+          "chunks": [
+            {
+              "en": "Thank you",
+              "ja": "ありがとうございます"
+            },
+            {
+              "en": "for the interesting presentation.",
+              "ja": "興味深い発表を"
+            },
+            {
+              "en": "I have a question",
+              "ja": "質問があります"
+            },
+            {
+              "en": "about your method.",
+              "ja": "手法について"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Presenter",
+          "en": "Sure. Please go ahead.",
+          "ja": "どうぞ。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "How did you choose the value of this parameter?",
+          "meaning_ja": "このパラメータの値はどのように決めましたか？",
+          "chunks": [
+            {
+              "en": "How did you choose",
+              "ja": "どのように決めましたか"
+            },
+            {
+              "en": "the value",
+              "ja": "値を"
+            },
+            {
+              "en": "of this parameter?",
+              "ja": "このパラメータの"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Presenter",
+          "en": "We selected it based on validation experiments.",
+          "ja": "検証実験に基づいて選びました。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "I see. Thank you.",
+          "meaning_ja": "分かりました。ありがとうございます。",
+          "chunks": [
+            {
+              "en": "I see.",
+              "ja": "分かりました"
+            },
+            {
+              "en": "Thank you.",
+              "ja": "ありがとうございます"
+            }
+          ]
+        }
+      ],
+      "tip_ja": "Thank you for ... + I have a question about ... とすると、自然に質問へ入れます。"
+    },
+    {
+      "id": "conference_clarify_question_055",
+      "icon": "🎓",
+      "category_ja": "学会",
+      "category": "Conference",
+      "title_ja": "質疑で質問を聞き返す",
+      "title_en": "Ask someone to repeat or clarify a question",
+      "situation_ja": "自分の発表後の質疑応答です。質問が聞き取れなかった、または意図が分からないときに聞き返します。",
+      "source_basis": "国際会議出張向けに独自作成",
+      "dialogue": [
+        {
+          "role": "other",
+          "speaker": "Audience member",
+          "en": "Could you explain why you used that particular regularizer?",
+          "ja": "なぜその正則化項を使ったのか説明していただけますか？"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "I'm sorry. Could you repeat the question, please?",
+          "meaning_ja": "すみません。質問をもう一度言っていただけますか？",
+          "chunks": [
+            {
+              "en": "I'm sorry.",
+              "ja": "すみません"
+            },
+            {
+              "en": "Could you repeat",
+              "ja": "もう一度言っていただけますか"
+            },
+            {
+              "en": "the question,",
+              "ja": "質問を"
+            },
+            {
+              "en": "please?",
+              "ja": "お願いします"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Audience member",
+          "en": "Sure. I was asking why you chose that regularizer.",
+          "ja": "もちろんです。なぜその正則化項を選んだのか聞きました。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Thank you. If I understand correctly, you're asking about the reason for that choice.",
+          "meaning_ja": "ありがとうございます。正しく理解していれば、その選択理由についてのご質問ですね。",
+          "chunks": [
+            {
+              "en": "Thank you.",
+              "ja": "ありがとうございます"
+            },
+            {
+              "en": "If I understand correctly,",
+              "ja": "正しく理解していれば"
+            },
+            {
+              "en": "you're asking about",
+              "ja": "ご質問は〜についてですね"
+            },
+            {
+              "en": "the reason for that choice.",
+              "ja": "その選択理由"
+            }
+          ]
+        }
+      ],
+      "tip_ja": "聞き返すこと自体は問題ありません。Could you repeat ...? と If I understand correctly ... が特に有用です。"
+    },
+    {
+      "id": "conference_approach_presenter_056",
+      "icon": "🎓",
+      "category_ja": "学会",
+      "category": "Conference",
+      "title_ja": "発表後に研究者へ話しかける",
+      "title_en": "Approach a presenter after a talk",
+      "situation_ja": "発表後、興味を持った研究者に個別に話しかけます。",
+      "source_basis": "国際会議出張向けに独自作成",
+      "dialogue": [
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Hi. I really enjoyed your talk.",
+          "meaning_ja": "こんにちは。発表、とても興味深かったです。",
+          "chunks": [
+            {
+              "en": "Hi.",
+              "ja": "こんにちは"
+            },
+            {
+              "en": "I really enjoyed",
+              "ja": "とても興味深く聞きました"
+            },
+            {
+              "en": "your talk.",
+              "ja": "あなたの発表を"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Researcher",
+          "en": "Thank you. I'm glad you found it interesting.",
+          "ja": "ありがとうございます。興味を持っていただけてうれしいです。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "I'm working on a related problem, so I'd like to ask you a little more about your approach.",
+          "meaning_ja": "関連する問題を研究しているので、手法についてもう少し伺いたいです。",
+          "chunks": [
+            {
+              "en": "I'm working on",
+              "ja": "研究しています"
+            },
+            {
+              "en": "a related problem,",
+              "ja": "関連する問題を"
+            },
+            {
+              "en": "so I'd like to ask you",
+              "ja": "なので伺いたいです"
+            },
+            {
+              "en": "a little more",
+              "ja": "もう少し"
+            },
+            {
+              "en": "about your approach.",
+              "ja": "手法について"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Researcher",
+          "en": "Of course. What would you like to know?",
+          "ja": "もちろんです。何を知りたいですか？"
+        }
+      ],
+      "tip_ja": "I really enjoyed your talk. は、発表者へ自然に話しかける入り口として使いやすい表現です。"
+    },
+    {
+      "id": "conference_self_intro_057",
+      "icon": "🎓",
+      "category_ja": "学会",
+      "category": "Conference",
+      "title_ja": "自分の研究分野を簡潔に紹介する",
+      "title_en": "Introduce yourself and your research",
+      "situation_ja": "研究者との会話が始まりました。所属と研究分野を短く紹介します。",
+      "source_basis": "国際会議出張向けに独自作成",
+      "dialogue": [
+        {
+          "role": "other",
+          "speaker": "Researcher",
+          "en": "What kind of research do you do?",
+          "ja": "どのような研究をしているのですか？"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "I'm an associate professor at a university in Japan, and I work on image processing and AI.",
+          "meaning_ja": "日本の大学で准教授をしていて、画像処理とAIを研究しています。",
+          "chunks": [
+            {
+              "en": "I'm an associate professor",
+              "ja": "准教授です"
+            },
+            {
+              "en": "at a university in Japan,",
+              "ja": "日本の大学の"
+            },
+            {
+              "en": "and I work on",
+              "ja": "研究しています"
+            },
+            {
+              "en": "image processing and AI.",
+              "ja": "画像処理とAIを"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Researcher",
+          "en": "Interesting. What are you working on now?",
+          "ja": "興味深いですね。今は何を研究していますか？"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Recently, I've been working on remote sensing and hyperspectral image analysis.",
+          "meaning_ja": "最近はリモートセンシングとハイパースペクトル画像解析に取り組んでいます。",
+          "chunks": [
+            {
+              "en": "Recently,",
+              "ja": "最近は"
+            },
+            {
+              "en": "I've been working on",
+              "ja": "取り組んでいます"
+            },
+            {
+              "en": "remote sensing",
+              "ja": "リモートセンシングと"
+            },
+            {
+              "en": "and hyperspectral image analysis.",
+              "ja": "ハイパースペクトル画像解析に"
+            }
+          ]
+        }
+      ],
+      "tip_ja": "I work on ... / I've been working on ... は研究分野や最近のテーマを説明する基本形です。"
+    },
+    {
+      "id": "conference_compare_research_058",
+      "icon": "🎓",
+      "category_ja": "学会",
+      "category": "Conference",
+      "title_ja": "相手の研究と自分の研究の関係を話す",
+      "title_en": "Compare your research with someone else's",
+      "situation_ja": "相手の研究が自分のテーマと近いと感じました。共通点と違いを簡潔に話します。",
+      "source_basis": "国際会議出張向けに独自作成",
+      "dialogue": [
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Your work seems closely related to what we're doing.",
+          "meaning_ja": "あなたの研究は、私たちが取り組んでいることとかなり近いように思います。",
+          "chunks": [
+            {
+              "en": "Your work",
+              "ja": "あなたの研究は"
+            },
+            {
+              "en": "seems closely related to",
+              "ja": "かなり近いように思います"
+            },
+            {
+              "en": "what we're doing.",
+              "ja": "私たちが取り組んでいることと"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Researcher",
+          "en": "Really? What is the main difference?",
+          "ja": "そうですか？ 主な違いは何ですか？"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "We use a similar idea, but our focus is on hyperspectral images.",
+          "meaning_ja": "似た考え方を使っていますが、私たちはハイパースペクトル画像に焦点を当てています。",
+          "chunks": [
+            {
+              "en": "We use",
+              "ja": "私たちは使っています"
+            },
+            {
+              "en": "a similar idea,",
+              "ja": "似た考え方を"
+            },
+            {
+              "en": "but our focus is on",
+              "ja": "ただし焦点は〜です"
+            },
+            {
+              "en": "hyperspectral images.",
+              "ja": "ハイパースペクトル画像"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Researcher",
+          "en": "I see. That sounds very relevant.",
+          "ja": "なるほど。とても関連がありそうですね。"
+        }
+      ],
+      "tip_ja": "similar ... but our focus is on ... は、研究の共通点と差を短く説明するのに便利です。"
+    },
+    {
+      "id": "conference_exchange_contact_059",
+      "icon": "🎓",
+      "category_ja": "学会",
+      "category": "Conference",
+      "title_ja": "連絡先を交換する",
+      "title_en": "Exchange contact information",
+      "situation_ja": "研究の話が盛り上がりました。今後も連絡できるよう、メールや名刺を交換します。",
+      "source_basis": "国際会議出張向けに独自作成",
+      "dialogue": [
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "I'd like to stay in touch. Could I get your contact information?",
+          "meaning_ja": "今後も連絡を取りたいです。連絡先を教えていただけますか？",
+          "chunks": [
+            {
+              "en": "I'd like to stay in touch.",
+              "ja": "今後も連絡を取りたいです"
+            },
+            {
+              "en": "Could I get",
+              "ja": "教えていただけますか"
+            },
+            {
+              "en": "your contact information?",
+              "ja": "連絡先を"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Researcher",
+          "en": "Sure. Here's my card.",
+          "ja": "もちろんです。これが私の名刺です。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Thank you. Here's mine as well.",
+          "meaning_ja": "ありがとうございます。こちらが私の名刺です。",
+          "chunks": [
+            {
+              "en": "Thank you.",
+              "ja": "ありがとうございます"
+            },
+            {
+              "en": "Here's mine",
+              "ja": "こちらが私のものです"
+            },
+            {
+              "en": "as well.",
+              "ja": "同じく"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Researcher",
+          "en": "Great. Feel free to email me.",
+          "ja": "ぜひメールしてください。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "I will. Thank you.",
+          "meaning_ja": "そうします。ありがとうございます。",
+          "chunks": [
+            {
+              "en": "I will.",
+              "ja": "そうします"
+            },
+            {
+              "en": "Thank you.",
+              "ja": "ありがとうございます"
+            }
+          ]
+        }
+      ],
+      "tip_ja": "I'd like to stay in touch. は、名刺交換やメール交換へ自然につなげる表現です。"
+    },
+    {
+      "id": "conference_networking_060",
+      "icon": "🎓",
+      "category_ja": "学会",
+      "category": "Conference",
+      "title_ja": "懇親会で会話に加わり、自然に退出する",
+      "title_en": "Join and leave a networking conversation",
+      "situation_ja": "学会の懇親会です。数人の研究者が話している輪に入り、少し話した後に自然に退出します。",
+      "source_basis": "国際会議出張向けに独自作成",
+      "dialogue": [
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Hi. Do you mind if I join you?",
+          "meaning_ja": "こんにちは。ご一緒してもよいですか？",
+          "chunks": [
+            {
+              "en": "Hi.",
+              "ja": "こんにちは"
+            },
+            {
+              "en": "Do you mind",
+              "ja": "よいですか"
+            },
+            {
+              "en": "if I join you?",
+              "ja": "ご一緒しても"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Researcher",
+          "en": "Not at all. Please join us.",
+          "ja": "もちろんです。どうぞ。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "Thanks. I'm Matsuoka from Japan. What are you all working on?",
+          "meaning_ja": "ありがとうございます。日本のMatsuokaです。皆さんはどんな研究をされているのですか？",
+          "chunks": [
+            {
+              "en": "Thanks.",
+              "ja": "ありがとうございます"
+            },
+            {
+              "en": "I'm Matsuoka",
+              "ja": "Matsuokaです"
+            },
+            {
+              "en": "from Japan.",
+              "ja": "日本の"
+            },
+            {
+              "en": "What are you all working on?",
+              "ja": "皆さんは何を研究していますか"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Researcher",
+          "en": "We were just talking about multimodal learning.",
+          "ja": "ちょうどマルチモーダル学習について話していました。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "That sounds interesting. I'd love to hear more.",
+          "meaning_ja": "面白そうですね。ぜひもう少し聞きたいです。",
+          "chunks": [
+            {
+              "en": "That sounds interesting.",
+              "ja": "面白そうですね"
+            },
+            {
+              "en": "I'd love to hear",
+              "ja": "ぜひ聞きたいです"
+            },
+            {
+              "en": "more.",
+              "ja": "もう少し"
+            }
+          ]
+        },
+        {
+          "role": "other",
+          "speaker": "Researcher",
+          "en": "Sure.",
+          "ja": "もちろんです。"
+        },
+        {
+          "role": "you",
+          "speaker": "You",
+          "en": "It was great talking with you. I should get going, but I hope we can talk again.",
+          "meaning_ja": "お話しできてよかったです。そろそろ失礼しますが、またお話しできればと思います。",
+          "chunks": [
+            {
+              "en": "It was great talking with you.",
+              "ja": "お話しできてよかったです"
+            },
+            {
+              "en": "I should get going,",
+              "ja": "そろそろ失礼します"
+            },
+            {
+              "en": "but I hope",
+              "ja": "ですが〜できればと思います"
+            },
+            {
+              "en": "we can talk again.",
+              "ja": "またお話しできることを"
+            }
+          ]
+        }
+      ],
+      "tip_ja": "Do you mind if I join you? と I should get going. を知っていると、懇親会で会話に入りやすく、抜けやすくなります。"
+    }
+  ]
+}
